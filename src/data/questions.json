@@ -1,0 +1,2582 @@
+[
+  {
+    "id": 1,
+    "tag": "abstraction",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is the primary purpose of data abstraction?",
+    "answer": "Separating interface details from underlying implementation",
+    "options": [
+      "Separating interface details from underlying implementation",
+      "Compiling high-level code directly into binary",
+      "Allocating contiguous memory blocks on the call stack",
+      "Encrypting stored database records for security"
+    ],
+    "fact": "Data abstraction is a technique used in computer programming to separate the implementation details of a data type from its interface, allowing the implementation to be changed without affecting the code that uses it. This is often achieved through the use of abstract data types (ADTs), which are defined by the operations they support rather than their specific implementation, or through the use of interfaces and classes in object-oriented programming languages. Data abstraction helps to reduce the complexity of software systems by allowing code to be written in a modular and flexible way and by hiding the underlying details of data types from the user."
+  },
+  {
+    "id": 2,
+    "tag": "error",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What causes a syntax error in a programming language?",
+    "answer": "Code that does not conform to the language's grammar rules",
+    "options": [
+      "Code that does not conform to the language's grammar rules",
+      "Dividing a number by zero during program execution",
+      "Accessing memory outside the allocated array bounds",
+      "Network timeout when requesting a remote resource"
+    ],
+    "fact": "A syntax error is an error in the structure of a programming language's code. It occurs when the code does not conform to the rules of the programming language's syntax. Syntax errors can occur for a variety of reasons, such as using the wrong punctuation, omitting required elements, or using an incorrect keyword. Syntax errors are usually detected by a compiler or interpreter when the code is being compiled or executed, and they can prevent the code from running correctly. To fix a syntax error, the code must be revised to conform to the correct syntax of the programming language."
+  },
+  {
+    "id": 3,
+    "tag": "documentation",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "Why is program documentation essential in software development?",
+    "answer": "It explains design and functionality to ease understanding and maintenance",
+    "options": [
+      "It explains design and functionality to ease understanding and maintenance",
+      "It automatically optimizes bytecode for execution speed",
+      "It replaces the need for automated unit tests",
+      "It encrypts source code before cloud deployment"
+    ],
+    "fact": "Program documentation is written information that describes the design and functionality of a computer program. It can include information about the purpose of the program, the structure of the code, the algorithms used, and the input and output data. Program documentation is important because it helps to make the code easier to understand and maintain. It can be used to document the design decisions made during the development process, which can be helpful for future developers working on the same codebase. Program documentation can also be used as a reference for using the program, and can be helpful for users who are unfamiliar with the code. Overall, program documentation helps to improve the quality and reliability of the code, and makes it easier to modify and update in the future."
+  },
+  {
+    "id": 4,
+    "tag": "testing",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is the primary objective of software testing?",
+    "answer": "Evaluating a system to verify requirements and identify defects",
+    "options": [
+      "Evaluating a system to verify requirements and identify defects",
+      "Rewriting legacy code into functional paradigms",
+      "Generating database schemas from ER diagrams",
+      "Increasing CPU cache hit ratios"
+    ],
+    "fact": "Software testing is the process of evaluating a software system or its component(s) with the intent of finding whether it satisfies the specified requirements or not. Software testing can be done manually or with the use of automated tools. It helps to identify errors, gaps, or missing requirements in the software. There are various types of software testing, including unit testing, integration testing, system testing, and acceptance testing, each of which has a specific focus and purpose. Software testing is an important part of the software development process because it helps to ensure that the software is of high quality and fit for its intended purpose."
+  },
+  {
+    "id": 5,
+    "tag": "datastructure",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is a data structure in computer science?",
+    "answer": "A way of organizing and storing data for efficient access and modification",
+    "options": [
+      "A way of organizing and storing data for efficient access and modification",
+      "A physical hardware chip on the motherboard",
+      "An operating system thread scheduling algorithm",
+      "A network packet encapsulation format"
+    ],
+    "fact": "A data structure is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently. Different types of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. Some common data structures include arrays, linked lists, stacks, queues, trees, and graphs. Data structures are an important part of computer science because they provide a means of organizing and storing data in a way that is efficient and easy to use. They are used in many areas of computing, including operating systems, database management systems, and computer networking."
+  },
+  {
+    "id": 6,
+    "tag": "bst",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "In a Binary Search Tree (BST), how are node values arranged?",
+    "answer": "Left subtree holds smaller values; right subtree holds larger values",
+    "options": [
+      "Left subtree holds smaller values; right subtree holds larger values",
+      "Parent node always holds the sum of child node values",
+      "Nodes are placed strictly in order of memory allocation",
+      "Every level must be completely filled before starting the next"
+    ],
+    "fact": "A binary search tree (BST) is a tree-based data structure in which each node has at most two children and all the nodes in the left subtree of a node have a value less than the node's value, and all the nodes in the right subtree have a value greater than the node's value. This structure allows for fast searching, insertion, and deletion of elements. Binary search trees are often used to store data that needs to be retrieved quickly, such as in the implementation of a dictionary or set data type. They are also used in many other applications, such as for storing and organizing data in databases and for optimizing search algorithms."
+  },
+  {
+    "id": 7,
+    "tag": "dynamic",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What distinguishes dynamic data structures from static ones?",
+    "answer": "They can grow or shrink in size during program execution",
+    "options": [
+      "They can grow or shrink in size during program execution",
+      "They can only store floating-point numbers",
+      "Their memory is allocated exclusively at compile time",
+      "They cannot be modified once initialized"
+    ],
+    "fact": "Dynamic data structures are data structures that can change in size during the execution of a program. This is in contrast to static data structures, which have a fixed size that is determined when the program is compiled. Dynamic data structures are often implemented using pointers, which allow them to allocate and deallocate memory as needed. Some common dynamic data structures include linked lists, stacks, queues, and trees. Dynamic data structures are useful because they can adapt to changing data needs and do not require the programmer to know the size of the data in advance. However, they can be more complex to implement and may have slower performance than static data structures in some cases."
+  },
+  {
+    "id": 8,
+    "tag": "dll",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What key feature characterizes a doubly linked list?",
+    "answer": "Each node contains pointers to both next and previous nodes",
+    "options": [
+      "Each node contains pointers to both next and previous nodes",
+      "Each element is stored at two separate physical memory addresses",
+      "It provides O(1) random index access like an array",
+      "Nodes can only be traversed in a backward direction"
+    ],
+    "fact": "A doubly linked list is a linear data structure in which each element is a node that contains a value and two pointers. One pointer points to the previous element in the list, and the other pointer points to the next element in the list. This allows for traversal of the list in both directions. Doubly linked lists are often used when it is necessary to efficiently insert or delete elements from the middle of the list, as they allow for easy manipulation of the pointers. They can also be used to implement stacks and queues. However, doubly linked lists require more memory than some other data structures because each node requires two pointers, rather than just one."
+  },
+  {
+    "id": 9,
+    "tag": "lr",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What is logistic regression primarily used for in machine learning?",
+    "answer": "Classifying data points into discrete categories using probability",
+    "options": [
+      "Classifying data points into discrete categories using probability",
+      "Clustering unlabelled high-dimensional audio files",
+      "Generating photorealistic synthetic image textures",
+      "Compressing video streams without quality loss"
+    ],
+    "fact": "In machine learning, logistic regression is a type of algorithm used to classify data points into one of two categories. It is a supervised learning algorithm, meaning it requires a labeled dataset to train on. Given a set of input features and a label indicating which category the data point belongs to, the algorithm learns a function that maps the input features to the label. Once trained, the model can be used to predict the label for new, unseen data points. Logistic regression is a popular choice for binary classification problems because it is relatively simple to implement and interpret, and it tends to perform well on a wide range of datasets. It uses sigmoid function as an activation function"
+  },
+  {
+    "id": 10,
+    "tag": "dt",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "How does a decision tree algorithm make predictions?",
+    "answer": "By splitting data through a tree structure based on feature values",
+    "options": [
+      "By splitting data through a tree structure based on feature values",
+      "By computing gradients across multi-layer neural tensors",
+      "By mapping features onto an infinite-dimensional Hilbert space",
+      "By repeatedly sorting the training dataset in descending order"
+    ],
+    "fact": "A decision tree is a type of machine learning algorithm that is used for classification and regression tasks. It is a tree-like model of decisions and their possible consequences, represented graphically. Each internal node of the tree represents a decision based on the value of a feature, and each leaf node represents a predicted outcome. The tree is constructed by learning from a training dataset, which includes input features and labels indicating the correct category for each data point. To make a prediction for a new, unseen data point, the algorithm follows the path down the tree, making decisions based on the values of the input features and ultimately arriving at a prediction for the label. Decision trees are widely used because they are easy to understand and interpret, and they can handle both categorical and numerical data."
+  },
+  {
+    "id": 11,
+    "tag": "cm",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What does a confusion matrix evaluate in classification models?",
+    "answer": "Performance by comparing true positives, false positives, true negatives, and false negatives",
+    "options": [
+      "Performance by comparing true positives, false positives, true negatives, and false negatives",
+      "The memory consumption of GPU tensor operations",
+      "The execution time of recursive sorting routines",
+      "The convergence rate of backpropagation weights"
+    ],
+    "fact": "A confusion matrix is a table that is used to evaluate the performance of a classification algorithm. It is a summary of the predictions made by the algorithm, with the actual class labels on one axis and the predicted class labels on the other. The table shows the number of times each combination of actual and predicted labels occurred. The confusion matrix can be used to calculate various performance metrics, such as precision, recall, and accuracy, which give an indication of how well the algorithm is able to predict the correct class labels. It is a useful tool for understanding the strengths and weaknesses of a classification algorithm and for identifying areas for improvement."
+  },
+  {
+    "id": 12,
+    "tag": "bias",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What does inductive bias refer to in machine learning?",
+    "answer": "The set of assumptions a model uses to generalize beyond training data",
+    "options": [
+      "The set of assumptions a model uses to generalize beyond training data",
+      "A hardware defect in GPU calculation cores",
+      "The intentional falsification of benchmark metrics",
+      "The roundoff error caused by 32-bit floating point math"
+    ],
+    "fact": "Bias in data science refers to the systematic error or deviation of a model or algorithm from the true underlying relationship it is attempting to model. Bias can occur for a variety of reasons, such as a poorly chosen model, incomplete or unrepresentative data, or incorrect assumptions about the data. Bias can have negative consequences, such as leading to inaccurate or unfair predictions or decisions. For example, a biased model might consistently overestimate or underestimate the value of a certain variable, or it might unfairly favor certain groups over others. It is important to identify and address bias in data science to ensure that models and algorithms are accurate and fair. This can be done through careful data selection and preprocessing, model selection and evaluation, and ongoing monitoring and testing."
+  },
+  {
+    "id": 13,
+    "tag": "dr",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What is the primary goal of dimensionality reduction (e.g. PCA)?",
+    "answer": "Reducing the number of input variables while preserving important variance",
+    "options": [
+      "Reducing the number of input variables while preserving important variance",
+      "Downsampling high-resolution images to thumbnail sizes",
+      "Removing duplicate rows from a relational database table",
+      "Converting continuous floating-point weights into 8-bit integers"
+    ],
+    "fact": "Dimensionality reduction is a technique used to reduce the number of dimensions (features) in a dataset while preserving as much of the information as possible. It is often used as a preprocessing step before applying machine learning algorithms, as it can help to simplify data, reduce computational complexity, and improve the performance of the model. There are several methods for dimensionality reduction, including feature selection, feature extraction, and manifold learning. Dimensionality reduction is an important tool for working with high-dimensional datasets, which can be difficult to analyze and visualize, and can help to reduce overfitting, improve the interpretability of the results, and reduce the computational cost of training the model."
+  },
+  {
+    "id": 14,
+    "tag": "dbms",
+    "category": "Databases",
+    "difficulty": "Easy",
+    "question": "What is the main role of a Database Management System (DBMS)?",
+    "answer": "Software to create, define, retrieve, and manage structured databases",
+    "options": [
+      "Software to create, define, retrieve, and manage structured databases",
+      "An operating system kernel module for scheduling disk writes",
+      "A hardware controller managing NVMe drive sectors",
+      "A compiler that converts SQL directly into machine code"
+    ],
+    "fact": "A database management system (DBMS) is a software application that is used to create, manage, and manipulate databases. A database is a collection of data that is organized in a specific way, allowing for efficient retrieval and manipulation of the data. A DBMS provides a set of tools and interfaces that allow users to create, modify, and query the database, as well as to control access to the data and maintain the integrity and consistency of the data. DBMSs are widely used in a variety of applications, including financial systems, customer relationship management systems, and online shopping systems. They are an essential component of many business and organization systems, as they allow for the efficient storage and management of large amounts of data."
+  },
+  {
+    "id": 15,
+    "tag": "normal",
+    "category": "Databases",
+    "difficulty": "Medium",
+    "question": "What is the main purpose of database normalization?",
+    "answer": "Minimizing data redundancy and avoiding update anomalies",
+    "options": [
+      "Minimizing data redundancy and avoiding update anomalies",
+      "Maximizing duplicate records for distributed fault tolerance",
+      "Encrypting all foreign keys with asymmetric cryptography",
+      "Converting relational tables into unstructured text files"
+    ],
+    "fact": "Normalization is the process of organizing a database in a way that minimizes redundancy and dependency. It involves breaking down a large table into smaller, more specialized tables, and establishing relationships between them using foreign keys. The goal of normalization is to reduce data redundancy, improve data integrity, and make it easier to modify the database structure. De-normalization is the process of reversing normalization, by combining tables or adding redundant data back into the database. It is often done to improve the performance of certain types of queries, at the expense of increased redundancy and a more complex database structure. De-normalization is used in cases where the benefits of faster query performance outweigh the drawbacks of increased data redundancy and complexity. Both normalization and de-normalization are important concepts in database design, and the appropriate approach depends on the specific requirements and goals of the database."
+  },
+  {
+    "id": 16,
+    "tag": "bcnf",
+    "category": "Databases",
+    "difficulty": "Hard",
+    "question": "What condition must hold for a relation to be in Boyce-Codd Normal Form (BCNF)?",
+    "answer": "For every functional dependency X -> Y, X must be a superkey",
+    "options": [
+      "For every functional dependency X -> Y, X must be a superkey",
+      "Every non-prime attribute must be partially dependent on a candidate key",
+      "All multivalued attributes must be converted into JSON arrays",
+      "Every column must allow NULL values by default"
+    ],
+    "fact": "BCNF (Boyce-Codd Normal Form) is a normal form in database design that is used to ensure that a database is free of certain types of anomalies and dependency issues. It requires that every determinant in the database be a candidate key, which is a set of attributes that uniquely identifies each row in a table. BCNF is more restrictive than 3NF (Third Normal Form), which only requires that the database be in 2NF (Second Normal Form) and that all the non-key attributes in the database be fully dependent on the primary key. BCNF can result in a more complex database structure, with more tables and foreign keys, but it can help to ensure that the database is well-organized and easy to maintain and modify."
+  },
+  {
+    "id": 17,
+    "tag": "relation",
+    "category": "Databases",
+    "difficulty": "Easy",
+    "question": "What is the degree of a relation in a relational database?",
+    "answer": "The number of attributes (columns) in the relation",
+    "options": [
+      "The number of attributes (columns) in the relation",
+      "The total number of rows (tuples) stored in the table",
+      "The depth of the B-tree index created on the primary key",
+      "The count of foreign key constraints referencing the table"
+    ],
+    "fact": "The degree of a relation in a database management system (DBMS) refers to the number of attributes it has. A relation with a single attribute is called a unary relation, a relation with two attributes is called a binary relation, and a relation with three or more attributes is called a ternary or higher-order relation. The degree of a relation is an important concept in database design, as it affects the structure and organization of the data."
+  },
+  {
+    "id": 18,
+    "tag": "ai",
+    "category": "Machine Learning & AI",
+    "difficulty": "Easy",
+    "question": "What is the difference between Strong AI (AGI) and Weak AI (Narrow AI)?",
+    "answer": "Strong AI exhibits general human-like reasoning; Weak AI is dedicated to specific tasks",
+    "options": [
+      "Strong AI exhibits general human-like reasoning; Weak AI is dedicated to specific tasks",
+      "Strong AI runs on quantum supercomputers; Weak AI runs on microcontrollers",
+      "Strong AI uses strictly symbolic logic; Weak AI uses deep neural networks",
+      "Strong AI requires no electricity or computational hardware"
+    ],
+    "fact": "Strong AI, also known as artificial general intelligence, refers to artificial intelligence systems that have the ability to perform any intellectual task that a human can. In other words, strong AI systems have a general and flexible intelligence that allows them to adapt to and learn new tasks, rather than being specifically designed for a single task or set of tasks. Weak AI, also known as artificial narrow intelligence, refers to artificial intelligence systems that are designed for a specific task or set of tasks. These systems are not capable of adapting to new tasks or learning new skills. They are often designed to perform a specific function, such as recognizing faces in images or playing a game like chess. In summary, the main difference between strong AI and weak AI is the scope and flexibility of their intelligence. Strong AI systems are capable of adapting to and learning new tasks, while weak AI systems are limited to the specific tasks they were designed for."
+  },
+  {
+    "id": 19,
+    "tag": "expert",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What is an expert system in artificial intelligence?",
+    "answer": "A system that emulates the decision-making ability of a human expert using a knowledge base and inference engine",
+    "options": [
+      "A system that emulates the decision-making ability of a human expert using a knowledge base and inference engine",
+      "A hardware benchmark tool used by datacenter engineers",
+      "A version control branch managed by senior developers",
+      "An operating system scheduler optimized for heavy server workloads"
+    ],
+    "fact": "An expert system is a type of artificial intelligence (AI) system that is designed to mimic the decision-making abilities of a human expert in a particular domain. Expert systems are often used in fields where specialized knowledge is required, such as medicine, engineering, and finance. Expert systems typically consist of a knowledge base, which contains information and rules about the domain, and an inference engine, which uses the knowledge base to draw conclusions and make recommendations. The knowledge base is usually created by experts in the field, who input their knowledge and expertise into the system. The inference engine uses this knowledge to make decisions and provide recommendations based on a set of input data."
+  },
+  {
+    "id": 20,
+    "tag": "rnn",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "Why are Recurrent Neural Networks (RNNs) suited for sequential data?",
+    "answer": "They maintain internal state (memory) using feedback loops across sequence steps",
+    "options": [
+      "They maintain internal state (memory) using feedback loops across sequence steps",
+      "They execute completely independent feedforward passes without memory",
+      "They avoid matrix multiplication by using bitwise XOR operations",
+      "They process entire audio files in a single constant-time step"
+    ],
+    "fact": "Recurrent neural networks (RNNs) are a type of artificial neural network that are designed to process sequential data. They are particularly useful for tasks that involve processing data with a temporal dimension, such as language translation, speech recognition, and time series prediction. RNNs are composed of units called neurons, which are connected together in a network and are able to pass information from one unit to the next. Unlike traditional neural networks, which process data in a feedforward manner, RNNs have feedback connections, which allow them to retain information from previous time steps and use it to process the current time step. This makes them well-suited for tasks that involve processing data with a temporal dimension, as they are able to consider the context and dependencies between time steps."
+  },
+  {
+    "id": 21,
+    "tag": "supervised",
+    "category": "Machine Learning & AI",
+    "difficulty": "Easy",
+    "question": "What defines supervised machine learning?",
+    "answer": "Training algorithms using labeled input-output pairs",
+    "options": [
+      "Training algorithms using labeled input-output pairs",
+      "Training models without any ground truth labels or targets",
+      "Letting an agent learn solely through trial and environmental rewards",
+      "Manually coding decision rules with nested if-else statements"
+    ],
+    "fact": "Supervised machine learning and unsupervised machine learning are two categories of machine learning algorithms that are used to train models on data. In supervised machine learning, the training data includes both input features and labeled output values. The goal of supervised learning is to train a model to make predictions about the output values given the input features. This requires the availability of labeled data, which can be used to train the model and evaluate its performance. Examples of supervised learning tasks include classification, regression, and prediction. In unsupervised machine learning, the training data includes only input features and no labeled output values. The goal of unsupervised learning is to find patterns and relationships in the data, rather than making predictions about specific output values. This requires the model to learn from the data itself, without the guidance of labeled outputs. Examples of unsupervised learning tasks include clustering and dimensionality reduction. In summary, the main difference between supervised and unsupervised learning is the availability of labeled data. Supervised learning requires labeled data, while unsupervised learning does not."
+  },
+  {
+    "id": 22,
+    "tag": "hyperparameters",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What are hyperparameters in machine learning?",
+    "answer": "Configuration values set prior to training that govern the learning process",
+    "options": [
+      "Configuration values set prior to training that govern the learning process",
+      "The weights and biases learned automatically during gradient descent",
+      "The physical CPU registers allocated to Python execution",
+      "The floating-point outputs produced on test dataset items"
+    ],
+    "fact": "Hyperparameters are parameters that are set before training a machine learning model. They are not learned from the training data, but rather are set manually by the developer. Hyperparameters control the behavior and performance of the model, and can have a significant impact on the accuracy and generalization of the model. Examples of hyperparameters include the learning rate for gradient descent, the regularization coefficient, the number of hidden units in a neural network, and the depth of a decision tree. These hyperparameters are set before training the model, and their values are used to control the training process and the resulting model. Hyperparameter optimization is the process of finding the best values for the hyperparameters of a machine learning model. This can be done manually, through trial and error, or using automated methods such as grid search or random search. Hyperparameter optimization is an important step in the process of developing a machine learning model, as it can have a significant impact on the performance of the model."
+  },
+  {
+    "id": 23,
+    "tag": "bn",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What is a Bayesian Network?",
+    "answer": "A probabilistic graphical model representing variables and conditional dependencies via a DAG",
+    "options": [
+      "A probabilistic graphical model representing variables and conditional dependencies via a DAG",
+      "A physical fiber optic network connecting European supercomputers",
+      "A deep convolutional network used exclusively for optical character recognition",
+      "A relational database query optimizer utilizing hash joins"
+    ],
+    "fact": "Bayesian networks are a type of probabilistic graphical model that represent the dependencies between different variables. They are used to represent and reason about uncertain or probabilistic information. Bayesian networks consist of a directed acyclic graph (DAG), in which the nodes represent variables and the edges represent the dependencies between the variables. The variables can be binary (e.g., true/false) or continuous (e.g., real numbers). Each variable is associated with a probability distribution that describes its possible values and the likelihood of each value occurring. The edges in the graph represent the relationships between the variables, and the probabilities in the distributions are used to capture the dependencies between the variables. Bayesian networks are useful for representing complex systems with many variables and dependencies, and can be used to make predictions about the values of variables given the values of other variables. They are commonly used in fields such as machine learning, artificial intelligence, and data analysis."
+  },
+  {
+    "id": 24,
+    "tag": "encryption",
+    "category": "Security",
+    "difficulty": "Easy",
+    "question": "What is the primary function of data encryption?",
+    "answer": "Converting plaintext into ciphertext to prevent unauthorized access",
+    "options": [
+      "Converting plaintext into ciphertext to prevent unauthorized access",
+      "Compressing binary executables to reduce download bandwidth",
+      "Checking source files for syntactic formatting violations",
+      "Indexing database columns to speed up range queries"
+    ],
+    "fact": "Encryption is the process of converting plain text or data into a coded or unreadable form, often to prevent unauthorized access or tampering. It is commonly used to secure data transmission over the internet or to protect sensitive information stored in databases or other digital systems. There are two types of encryption: symmetric and asymmetric. In symmetric encryption, the same key is used for both encryption and decryption, while in asymmetric encryption, a pair of keys (public and private) is used, with one key used for encryption and the other for decryption. Common encryption algorithms include AES, RSA, and DES."
+  },
+  {
+    "id": 25,
+    "tag": "API",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is an Application Programming Interface (API)?",
+    "answer": "A defined contract of protocols and tools enabling software systems to communicate",
+    "options": [
+      "A defined contract of protocols and tools enabling software systems to communicate",
+      "A physical graphics card slot on a desktop motherboard",
+      "A hardware standard for high-speed Ethernet routing",
+      "A database backup snapshot format used for recovery"
+    ],
+    "fact": "An API (Application Programming Interface) is a set of rules and protocols that allow different software applications to communicate and interact with each other. It defines the methods, data formats, and conventions that developers can use to build software applications that can integrate with other applications or services. There are several types of APIs, including: 1) Web APIs, which allow communication between web-based applications and services; 2) Operating system APIs, which provide access to system-level functionality, such as file system operations or device drivers; 3) Library APIs, which are collections of pre-written code that developers can use to perform common tasks, such as database operations or image processing; and 4) Hardware APIs, which enable software applications to interact with hardware devices, such as sensors or printers."
+  },
+  {
+    "id": 26,
+    "tag": "cloud computing",
+    "category": "Computer Networks",
+    "difficulty": "Easy",
+    "question": "What is cloud computing?",
+    "answer": "On-demand delivery of computing services and storage over the internet",
+    "options": [
+      "On-demand delivery of computing services and storage over the internet",
+      "Running programs entirely on offline USB flash storage",
+      "Cooling server racks with atmospheric water vapor",
+      "Compiling C++ code directly into assembly without an OS"
+    ],
+    "fact": "Cloud computing is the delivery of computing resources, such as computing power, storage, and software, over the internet on a pay-as-you-go basis. Instead of hosting and managing these resources locally, users can access them remotely from a cloud service provider's data centers. The benefits of cloud computing include: 1) Cost savings, as users can avoid upfront investments in hardware and infrastructure; 2) Scalability, as users can easily adjust their resources based on their needs; 3) Flexibility, as users can access their resources from anywhere with an internet connection; and 4) Reliability, as cloud service providers typically offer redundant systems and backup options. There are three main types of cloud computing models: 1) Infrastructure as a Service (IaaS), which provides virtualized computing resources over the internet; 2) Platform as a Service (PaaS), which offers a platform and tools for developing and deploying applications; and 3) Software as a Service (SaaS), which delivers software applications over the internet."
+  },
+  {
+    "id": 27,
+    "tag": "virtual reality",
+    "category": "Computer Science",
+    "difficulty": "Easy",
+    "question": "What is Virtual Reality (VR) technology?",
+    "answer": "A simulated 3D experience generated by computer technology mimicking physical presence",
+    "options": [
+      "A simulated 3D experience generated by computer technology mimicking physical presence",
+      "An operating system virtual memory paging algorithm",
+      "A database virtualization layer for distributed shards",
+      "An encrypted VPN tunnel between remote branch offices"
+    ],
+    "fact": "Virtual reality (VR) is a computer-generated simulation of a three-dimensional environment that can be interacted with using specialized hardware, such as headsets or controllers. It creates an immersive experience that can simulate real-world or imaginary environments. Applications of virtual reality include gaming, training simulations, therapy, architecture, and entertainment."
+  },
+  {
+    "id": 28,
+    "tag": "cybersecurity",
+    "category": "Security",
+    "difficulty": "Easy",
+    "question": "What is the main goal of cybersecurity?",
+    "answer": "Protecting systems, networks, and data from digital attacks and unauthorized access",
+    "options": [
+      "Protecting systems, networks, and data from digital attacks and unauthorized access",
+      "Maximizing clock speeds of overclocked CPU cores",
+      "Generating automated documentation from Git commits",
+      "Minimizing HTML and CSS bundle sizes for mobile browsers"
+    ],
+    "fact": "Cybersecurity is the practice of protecting computers, servers, networks, and data from unauthorized access, use, disclosure, disruption, or destruction. It is important to safeguard sensitive information, prevent data breaches, and protect against cyber attacks. Common cybersecurity threats include malware, phishing, ransomware, social engineering, and insider threats."
+  },
+  {
+    "id": 29,
+    "tag": "database",
+    "category": "Databases",
+    "difficulty": "Easy",
+    "question": "What is a database in computer systems?",
+    "answer": "An organized collection of structured data stored electronically",
+    "options": [
+      "An organized collection of structured data stored electronically",
+      "A volatile memory buffer cleared on system reboot",
+      "A networking protocol for transferring raw video streams",
+      "A script that transpiles modern JavaScript to ES5"
+    ],
+    "fact": "A database is a structured collection of data that is organized, stored, and managed in a computer system. Types of databases include relational databases, object-oriented databases, and NoSQL databases. Benefits of using databases include efficient data storage and retrieval, data integrity, data consistency, and support for concurrent access by multiple users."
+  },
+  {
+    "id": 30,
+    "tag": "programming",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What is computer programming?",
+    "answer": "Writing instructions that a computer can execute to perform tasks or solve problems",
+    "options": [
+      "Writing instructions that a computer can execute to perform tasks or solve problems",
+      "Designing silicon circuit traces on semiconductor wafers",
+      "Connecting router cables to patch panels in datacenters",
+      "Configuring BIOS voltage settings for server cooling fans"
+    ],
+    "fact": "Programming is the process of creating computer software by writing instructions that can be executed by a computer. Different programming languages include Python, Java, C++, and JavaScript. Best practices in programming include writing clean and readable code, using version control, following coding standards, and testing and debugging thoroughly."
+  },
+  {
+    "id": 31,
+    "tag": "networking",
+    "category": "Computer Networks",
+    "difficulty": "Easy",
+    "question": "What is computer networking?",
+    "answer": "Interconnecting computing devices to exchange data and share resources",
+    "options": [
+      "Interconnecting computing devices to exchange data and share resources",
+      "Formatting magnetic hard disk drives with NTFS partitions",
+      "Writing nested loops in object-oriented class methods",
+      "Compiling kernel source code into machine bytecode"
+    ],
+    "fact": "Networking is the process of connecting and sharing data between devices, systems, or computers. Types of networks include local area networks (LANs), wide area networks (WANs), and wireless networks. Advantages of networking include easy sharing of resources, improved communication, enhanced collaboration, and increased efficiency."
+  },
+  {
+    "id": 32,
+    "tag": "data science",
+    "category": "Machine Learning & AI",
+    "difficulty": "Easy",
+    "question": "What is data science?",
+    "answer": "An interdisciplinary field extracting insights from structured and unstructured data",
+    "options": [
+      "An interdisciplinary field extracting insights from structured and unstructured data",
+      "The study of physical semiconductor fabrication techniques",
+      "The configuration of network switches and physical ethernet ports",
+      "The assembly of custom liquid-cooled gaming computers"
+    ],
+    "fact": "Data science is a multidisciplinary field that involves extracting insights and knowledge from data using various techniques and tools. The data science process typically includes steps such as data collection, data cleaning, data exploration, data analysis, and data visualization. Tools used in data science include programming languages like Python or R, data visualization libraries, statistical software, and machine learning frameworks."
+  },
+  {
+    "id": 33,
+    "tag": "internet of things",
+    "category": "Computer Networks",
+    "difficulty": "Easy",
+    "question": "What is the Internet of Things (IoT)?",
+    "answer": "A network of physical devices embedded with sensors and software to exchange data",
+    "options": [
+      "A network of physical devices embedded with sensors and software to exchange data",
+      "A search engine algorithm indexing webpage hyperlinks",
+      "A software architecture pattern replacing Model-View-Controller",
+      "A distributed git repository hosting open-source libraries"
+    ],
+    "fact": "The internet of things (IoT) refers to the network of interconnected devices that can communicate and exchange data with each other over the internet. IoT devices can include smart home devices, wearables, industrial sensors, and connected vehicles. Applications of IoT include smart cities, healthcare monitoring, industrial automation, and smart agriculture."
+  },
+  {
+    "id": 34,
+    "tag": "blockchain",
+    "category": "Computer Science",
+    "difficulty": "Medium",
+    "question": "What is a blockchain?",
+    "answer": "A decentralized, distributed, immutable digital ledger of cryptographically linked blocks",
+    "options": [
+      "A decentralized, distributed, immutable digital ledger of cryptographically linked blocks",
+      "A high-speed CPU memory cache architecture",
+      "A relational database normalization technique",
+      "A multithreaded operating system process queue"
+    ],
+    "fact": "Blockchain is a distributed and decentralized digital ledger that records transactions in a secure and transparent manner. It uses cryptography and consensus algorithms to ensure data integrity and prevent tampering. Advantages of blockchain include increased security, transparency, efficiency, and reduced intermediaries in transactions."
+  },
+  {
+    "id": 35,
+    "tag": "neural networks",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What is an artificial neural network?",
+    "answer": "A computational model inspired by biological brains composed of interconnected nodes",
+    "options": [
+      "A computational model inspired by biological brains composed of interconnected nodes",
+      "A physical fiber-optic internet backbone topology",
+      "A distributed peer-to-peer file sharing protocol",
+      "A relational database schema with many-to-many joins"
+    ],
+    "fact": "Neural networks are a type of machine learning model inspired by the human brain that can process complex patterns and make predictions. Artificial neural networks consist of layers of interconnected nodes or neurons that receive input, apply activation functions, and produce output. Neural networks learn through a process called backpropagation, where errors in predictions are used to update the weights and biases of the network in order to improve its performance."
+  },
+  {
+    "id": 36,
+    "tag": "natural language processing",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What is Natural Language Processing (NLP)?",
+    "answer": "A subfield of AI enabling computers to understand, interpret, and generate human language",
+    "options": [
+      "A subfield of AI enabling computers to understand, interpret, and generate human language",
+      "A compiler optimization that minimizes assembly instruction count",
+      "A hardware interface standard for sound cards and microphones",
+      "A database indexing technique for binary audio files"
+    ],
+    "fact": "Natural language processing (NLP) is a field of study that focuses on enabling computers to understand, interpret, and generate human language. NLP techniques include text analysis, sentiment analysis, named entity recognition, and machine translation. Applications of NLP include language translation, chatbots, voice assistants, and sentiment analysis in social media."
+  },
+  {
+    "id": 37,
+    "tag": "big data",
+    "category": "Databases",
+    "difficulty": "Easy",
+    "question": "What characterizes Big Data in enterprise computing?",
+    "answer": "Extremely large, complex datasets characterized by high volume, velocity, and variety",
+    "options": [
+      "Extremely large, complex datasets characterized by high volume, velocity, and variety",
+      "Source code repositories exceeding 100 megabytes",
+      "A database table with more than five foreign key relations",
+      "A single computer with more than 64 GB of RAM"
+    ],
+    "fact": "Big data refers to large and complex data sets that cannot be easily processed or analyzed with traditional data processing methods. The 3Vs of big data are volume, velocity, and variety, which represent the characteristics of big data. Big data is analyzed using techniques such as data mining, machine learning, and distributed computing frameworks like Hadoop and Spark."
+  },
+  {
+    "id": 38,
+    "tag": "DevOps",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is the core philosophy of DevOps?",
+    "answer": "Integrating software development and IT operations to shorten the delivery lifecycle",
+    "options": [
+      "Integrating software development and IT operations to shorten the delivery lifecycle",
+      "Replacing all developers with automated machine learning models",
+      "Developing software strictly without testing or version control",
+      "Using single-threaded processors for server applications"
+    ],
+    "fact": "DevOps is a software development approach that combines development (Dev) and operations (Ops) to streamline the software delivery process. The principles of DevOps include continuous integration, continuous delivery, and automation of software development and deployment. DevOps improves software development by promoting collaboration, reducing errors, and accelerating the release cycle, resulting in faster delivery of high-quality software products."
+  },
+  {
+    "id": 39,
+    "tag": "virtual reality",
+    "category": "Computer Science",
+    "difficulty": "Easy",
+    "question": "What is Virtual Reality (VR) technology?",
+    "answer": "A simulated 3D experience generated by computer technology mimicking physical presence",
+    "options": [
+      "A simulated 3D experience generated by computer technology mimicking physical presence",
+      "An operating system virtual memory paging algorithm",
+      "A database virtualization layer for distributed shards",
+      "An encrypted VPN tunnel between remote branch offices"
+    ],
+    "fact": "Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world, typically created using computer technology. Types of VR systems include desktop-based VR, mobile-based VR, and headset-based VR. Applications of VR include gaming, education and training, healthcare, architecture and design, and entertainment."
+  },
+  {
+    "id": 40,
+    "tag": "computer architecture",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What does computer architecture encompass?",
+    "answer": "The conceptual design and fundamental operational structure of a computer system",
+    "options": [
+      "The conceptual design and fundamental operational structure of a computer system",
+      "The physical color and exterior aesthetic of a server chassis",
+      "The layout of office cubicles in a software company",
+      "The CSS styling rules applied to responsive web pages"
+    ],
+    "fact": "Computer architecture refers to the design and organization of computer systems, including the structure and behavior of hardware and software components. The Von Neumann architecture is a widely used computer architecture that separates memory and processing units, allowing instructions and data to be stored in the same memory. Components of a CPU include the control unit, arithmetic logic unit (ALU), registers, and cache."
+  },
+  {
+    "id": 41,
+    "tag": "digital logic design",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is digital logic design in computer engineering?",
+    "answer": "Designing electronic circuits that manipulate digital signals using logic gates",
+    "options": [
+      "Designing electronic circuits that manipulate digital signals using logic gates",
+      "Creating wireframes and CSS stylesheets for web apps",
+      "Writing high-level SQL queries for relational databases",
+      "Configuring firewall port-forwarding rules on routers"
+    ],
+    "fact": "Digital logic design involves designing and analyzing circuits that use digital signals to represent and process information. Logic gates are basic building blocks of digital circuits that perform logic operations, such as AND, OR, and NOT. Flip-flops and latches are sequential logic circuits used to store and synchronize data in digital systems."
+  },
+  {
+    "id": 42,
+    "tag": "javascript",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What role does JavaScript primarily play in web development?",
+    "answer": "Adding interactive, dynamic behavior to web pages and applications",
+    "options": [
+      "Adding interactive, dynamic behavior to web pages and applications",
+      "Defining the raw semantic structure of HTML documents",
+      "Compiling C++ kernel drivers for graphics hardware",
+      "Configuring physical DNS server bind configurations"
+    ],
+    "fact": "JavaScript is a widely used programming language for building dynamic websites and web applications. JavaScript data types include primitive types such as numbers, strings, booleans, null, and undefined, as well as complex types such as objects and arrays. JavaScript frameworks are pre-written libraries or collections of reusable code that provide a structure and set of tools for developing web applications, such as Angular, React, and Vue."
+  },
+  {
+    "id": 43,
+    "tag": "react",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What is React in modern front-end development?",
+    "answer": "A JavaScript library for building component-based user interfaces with a virtual DOM",
+    "options": [
+      "A JavaScript library for building component-based user interfaces with a virtual DOM",
+      "A relational database management system using SQL",
+      "A low-level operating system kernel for ARM chips",
+      "A protocol for encrypted peer-to-peer file transfer"
+    ],
+    "fact": "React is a popular JavaScript library for building user interfaces, particularly for web applications. React components are the building blocks of a React application, representing different parts of the user interface. Components can be reused and combined to create complex user interfaces. React hooks are functions that allow state and lifecycle features to be used in functional components, such as useState for managing component state and useEffect for handling side effects."
+  },
+  {
+    "id": 44,
+    "tag": "oop",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What is the core idea of Object-Oriented Programming (OOP)?",
+    "answer": "Organizing software design around data objects rather than functions and logic alone",
+    "options": [
+      "Organizing software design around data objects rather than functions and logic alone",
+      "Writing programs with zero functions or procedures",
+      "Executing assembly code directly on bare-metal hardware",
+      "Replacing all data structures with flat sequential arrays"
+    ],
+    "fact": "Conventional programming is a procedural approach where programs are organized as a sequence of tasks or functions, while object-oriented programming (OOP) is a paradigm that uses objects as the fundamental building blocks of a program. In OOP, data and functions (methods) are encapsulated together in objects, allowing for better modularity, reusability, and code organization. OOP also supports concepts such as inheritance, polymorphism, and encapsulation, which are not present in conventional programming."
+  },
+  {
+    "id": 45,
+    "tag": "data abstraction",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "How does data abstraction benefit software architecture?",
+    "answer": "By exposing only essential interfaces while hiding internal implementation complexity",
+    "options": [
+      "By exposing only essential interfaces while hiding internal implementation complexity",
+      "By increasing memory consumption to maximize cache usage",
+      "By forcing all variables to be declared as global constants",
+      "By compiling code directly to raw hexadecimal bytecode"
+    ],
+    "fact": "Data abstraction is a technique used in programming to hide the implementation details of data types and only expose their essential properties and behaviors. It allows programmers to create abstract data types (ADTs) that define the interface and operations of a data type without revealing how it is implemented. This separation of interface from implementation allows for better code maintainability, flexibility, and modularity."
+  },
+  {
+    "id": 46,
+    "tag": "objects, classes, and methods",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "In OOP, what is the relationship between a class and an object?",
+    "answer": "A class is a blueprint; an object is an instantiated instance of that blueprint",
+    "options": [
+      "A class is a blueprint; an object is an instantiated instance of that blueprint",
+      "An object is a blueprint; a class is the runtime instance",
+      "They are completely synonymous terms with identical meaning",
+      "A class only holds functions; an object only holds primitive numbers"
+    ],
+    "fact": "In object-oriented programming (OOP), objects are instances of a class, which is a blueprint or template for creating objects. A class is a user-defined data type that encapsulates data (attributes) and functions (methods) that operate on that data. Methods are the actions or behaviors that objects of a class can perform. Objects are created from a class using a process called instantiation, and methods are called on objects to perform specific tasks."
+  },
+  {
+    "id": 47,
+    "tag": "constructors",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What is the purpose of a constructor in object-oriented programming?",
+    "answer": "A special member function that initializes a newly created object",
+    "options": [
+      "A special member function that initializes a newly created object",
+      "A method that deallocates memory when an object is destroyed",
+      "A compiler flag that optimizes loop unrolling",
+      "A database query that creates new relational tables"
+    ],
+    "fact": "Constructors are special methods in object-oriented programming that are used to initialize objects of a class. They are called automatically when an object is created from a class and are used to set the initial values of the attributes of the object. Constructors have the same name as the class and do not have any return type. They can be used to set default values, allocate memory, and perform other initialization tasks for objects."
+  },
+  {
+    "id": 48,
+    "tag": "destructors",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "What is the primary role of a destructor?",
+    "answer": "Releasing resources and cleaning up memory when an object goes out of scope",
+    "options": [
+      "Releasing resources and cleaning up memory when an object goes out of scope",
+      "Allocating initial heap space when an object is declared",
+      "Copying object properties across network sockets",
+      "Translating source code into intermediate bytecode representation"
+    ],
+    "fact": "Destructors are special methods in object-oriented programming that are used to clean up resources and perform cleanup operations before an object is destroyed or deleted. They are called automatically when an object goes out of scope or is explicitly deleted. Destructors have the same name as the class, preceded by a tilde (~), and do not have any return type. They can be used to free memory, close file handles, and perform other cleanup tasks for objects."
+  },
+  {
+    "id": 49,
+    "tag": "operator overloading",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "What does operator overloading allow developers to do?",
+    "answer": "Redefine the behavior of existing operators (like +, *) for user-defined types",
+    "options": [
+      "Redefine the behavior of existing operators (like +, *) for user-defined types",
+      "Execute mathematical expressions without a CPU ALU",
+      "Overload the network card with duplicate packet requests",
+      "Create new alphanumeric characters in programming source files"
+    ],
+    "fact": "Operator overloading is a feature in some programming languages that allows operators (such as +, -, *, /) to have different meanings or behaviors depending on the context or operands they are used with. It allows programmers to define how operators should behave when applied to objects of user-defined classes, in addition to their usual meanings for built-in types. Operator overloading can make code more concise and expressive, but should be used judiciously to avoid confusion."
+  },
+  {
+    "id": 50,
+    "tag": "generic programming",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "What is the goal of generic programming (e.g. templates/generics)?",
+    "answer": "Writing code with type parameters so functions/classes work across multiple data types",
+    "options": [
+      "Writing code with type parameters so functions/classes work across multiple data types",
+      "Writing code without using any variable names or identifiers",
+      "Generating randomized test data for database benchmarks",
+      "Compiling code without type checking or syntax validation"
+    ],
+    "fact": "Class and function templates are features in some programming languages that allow the creation of generic, reusable code that can work with different data types. Class templates are used to define generic classes that can have placeholders for data types, which are specified when objects of the class are created. Function templates are used to define generic functions that can operate on different data types, which are inferred or explicitly specified during function calls. Templates provide flexibility and code reuse in generic programming."
+  },
+  {
+    "id": 51,
+    "tag": "inheritance",
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "What is inheritance in object-oriented programming?",
+    "answer": "A mechanism where a child class acquires properties and behaviors from a parent class",
+    "options": [
+      "A mechanism where a child class acquires properties and behaviors from a parent class",
+      "A technique to store database tables on separate physical disks",
+      "A network architecture where clients inherit server IP addresses",
+      "An algorithm that sorts arrays by comparing adjacent items"
+    ],
+    "fact": "Inheritance is a concept in object-oriented programming (OOP) where a class can inherit properties and behaviors from another class. The class that is inherited from is called the parent or base class, and the class that inherits from it is called the child or derived class. Inheritance allows for code reuse and promotes code organization and modularity. The child class can inherit attributes, methods, and other members of the parent class, and can also override or extend them to customize its behavior."
+  },
+  {
+    "id": 52,
+    "tag": "multiple inheritance",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "What is multiple inheritance?",
+    "answer": "A feature where a class can inherit properties and methods from more than one parent class",
+    "options": [
+      "A feature where a class can inherit properties and methods from more than one parent class",
+      "Instantiating multiple objects from the exact same class",
+      "Running multiple instances of a program on different threads",
+      "A database table having multiple foreign keys"
+    ],
+    "fact": "Multiple inheritance is a feature in some object-oriented programming languages that allows a class to inherit properties and behaviors from more than one parent class. This means that a child class can inherit attributes, methods, and other members from multiple classes. Multiple inheritance can provide more flexibility in designing class hierarchies and code reuse, but it can also lead to complexities and ambiguities. Some programming languages support multiple inheritance, while others do not."
+  },
+  {
+    "id": 53,
+    "tag": "polymorphism",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "What is polymorphism in object-oriented systems?",
+    "answer": "The ability of different classes to respond to the same method call in their own specific way",
+    "options": [
+      "The ability of different classes to respond to the same method call in their own specific way",
+      "Converting high-level source code into multiple binary formats",
+      "Running an application simultaneously across different operating systems",
+      "Storing multiple data types in a single unmanaged memory pointer"
+    ],
+    "fact": "Polymorphism is a concept in object-oriented programming (OOP) where objects of different classes can be treated as if they are of the same type. This allows for writing generic code that can work with objects of different classes, as long as they implement the same interface or have the same behavior. Polymorphism promotes code flexibility, reusability, and extensibility. Polymorphism can be achieved through interfaces, abstract classes, virtual functions, and other mechanisms in OOP."
+  },
+  {
+    "id": 54,
+    "tag": "aggregation",
+    "category": "Programming",
+    "difficulty": "Medium",
+    "question": "In OOP object relationships, what describes aggregation (a 'has-a' relationship)?",
+    "answer": "A weak association where child objects can exist independently of the parent object",
+    "options": [
+      "A weak association where child objects can exist independently of the parent object",
+      "A strong composition where children are destroyed when the parent dies",
+      "A direct parent-child class inheritance hierarchy",
+      "An asynchronous message queue between microservices"
+    ],
+    "fact": "Aggregation is a relationship between objects in object-oriented programming (OOP) where one object contains or is composed of other objects, but the contained objects can exist independently of the containing object. Aggregation is a form of association, where objects are connected in a whole-part relationship. Aggregation allows for creating complex objects by combining simpler objects, and it promotes code reuse and modularity. Aggregation is commonly used for modeling relationships such as has-a or part-of between objects."
+  },
+  {
+    "id": 55,
+    "tag": "program debugging and testing",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is the difference between debugging and testing?",
+    "answer": "Testing discovers the presence of defects; debugging locates and fixes their root cause",
+    "options": [
+      "Testing discovers the presence of defects; debugging locates and fixes their root cause",
+      "Debugging is done by end users; testing is done by the compiler",
+      "Testing only applies to hardware; debugging only applies to databases",
+      "They are identical terms with no procedural distinction"
+    ],
+    "fact": "Program debugging is the process of identifying and fixing errors or bugs in a software program. It involves using debugging tools, techniques, and strategies to trace and isolate issues in the code. Program testing is the process of evaluating a software program to ensure that it behaves as expected and meets its intended requirements. It involves designing and executing tests, analyzing test results, and verifying the correctness and reliability of the program."
+  },
+  {
+    "id": 56,
+    "tag": "event logging",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "Why is event logging critical in production systems?",
+    "answer": "It records system events and errors for monitoring, auditing, and troubleshooting",
+    "options": [
+      "It records system events and errors for monitoring, auditing, and troubleshooting",
+      "It automatically accelerates disk read and write speeds",
+      "It eliminates the need for software security firewalls",
+      "It converts synchronous functions into asynchronous web workers"
+    ],
+    "fact": "Event logging is a mechanism in software development that involves capturing and storing information about events or actions that occur during the execution of a program. Events can include errors, warnings, user interactions, system events, and other relevant information. Event logging is commonly used for monitoring, troubleshooting, and analyzing the behavior and performance of software systems. It can provide valuable insights into the runtime behavior of a program and help in identifying and resolving issues."
+  },
+  {
+    "id": 57,
+    "tag": "propositional logic",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is propositional logic in computer science theory?",
+    "answer": "A branch of logic dealing with propositions that are either strictly True or False",
+    "options": [
+      "A branch of logic dealing with propositions that are either strictly True or False",
+      "A machine learning model for natural language translation",
+      "A method for indexing spatial GIS coordinates in databases",
+      "A hardware protocol for routing network switch packets"
+    ],
+    "fact": "Propositional logic, also known as propositional calculus or sentential logic, is a branch of mathematical logic that deals with the study of logical relationships between propositions or statements. Propositions are expressions that are either true or false, and they can be combined using logical connectives such as AND, OR, NOT, and IMPLIES to form compound propositions. Propositional logic is used in formal reasoning, deductive reasoning, and symbolic logic to analyze and evaluate the truth values of logical statements."
+  },
+  {
+    "id": 58,
+    "tag": "logical connectives",
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What are logical connectives (AND, OR, NOT) used for?",
+    "answer": "Combining or modifying statements to form compound propositions",
+    "options": [
+      "Combining or modifying statements to form compound propositions",
+      "Connecting physical ethernet cables to router ports",
+      "Linking foreign keys across relational database tables",
+      "Binding UI buttons to event handler functions"
+    ],
+    "fact": "Logical connectives are symbols or operators used in propositional logic to combine or modify propositions or statements. Common logical connectives include AND (\u2227), OR (\u2228), NOT (\u00ac), IMPLIES (\u2192), EQUIVALENT (\u2194), and others. These connectives are used to create compound propositions or logical expressions by specifying the relationship between propositions, such as conjunction (AND), disjunction (OR), negation (NOT), implication (IMPLIES), and equivalence (EQUIVALENT). Logical connectives are the building blocks of propositional logic and are used to create complex logical expressions."
+  },
+  {
+    "id": 59,
+    "tag": "truth tables",
+    "category": "Digital Logic",
+    "difficulty": "Easy",
+    "question": "What is a truth table?",
+    "answer": "A mathematical table showing output values for all combinations of input truth values",
+    "options": [
+      "A mathematical table showing output values for all combinations of input truth values",
+      "A relational database table that cannot store NULL values",
+      "A hash table that stores cryptographic signature keys",
+      "A lookup table used by GPU drivers for color grading"
+    ],
+    "fact": "Truth tables are tables used in propositional logic to represent and analyze the truth values of logical propositions or statements. A truth table lists all possible combinations of truth values for the propositions in a logical expression and shows the resulting truth value of the expression for each combination. Truth tables are used to evaluate the validity, consistency, and satisfiability of logical expressions, and to determine the truth values of complex propositions based on the truth values of their constituent propositions. Truth tables are an important tool in formal logic for reasoning about the truthfulness of logical statements."
+  },
+  {
+    "id": 60,
+    "tag": "universal quantification",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What does universal quantification (\u2200) express in predicate logic?",
+    "answer": "A predicate is true for every element in the domain of discourse",
+    "options": [
+      "A predicate is true for every element in the domain of discourse",
+      "A predicate is true for at least one element in the domain",
+      "A predicate is mathematically undecidable by a Turing machine",
+      "A variable is allocated globally across all thread scopes"
+    ],
+    "fact": "Universal quantification is a concept in predicate logic that quantifies over all elements in a domain or set. It is denoted by the symbol \u2200 (for all) and is used to express statements that are true for every member of a domain. For example, the statement \u2200x P(x) means that the predicate P holds for all elements x in the domain. Universal quantification allows for generalization and abstraction in logic, allowing us to make statements that hold universally for all instances."
+  },
+  {
+    "id": 61,
+    "tag": "existential quantification",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What does existential quantification (\u2203) assert in predicate logic?",
+    "answer": "There exists at least one element in the domain for which the predicate is true",
+    "options": [
+      "There exists at least one element in the domain for which the predicate is true",
+      "The predicate is true for all possible domain members without exception",
+      "The predicate evaluates to False for all elements in the universe",
+      "The proposition cannot be evaluated in polynomial time"
+    ],
+    "fact": "Existential quantification is a concept in predicate logic that quantifies over at least one element in a domain or set. It is denoted by the symbol \u2203 (there exists) and is used to express statements that are true for at least one member of a domain. For example, the statement \u2203x P(x) means that there exists an element x in the domain for which the predicate P holds. Existential quantification allows for the existence of specific instances in logic, allowing us to make statements that assert the existence of certain elements."
+  },
+  {
+    "id": 62,
+    "tag": "rate of growth of complexity of algorithms",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What does the rate of growth of an algorithm describe?",
+    "answer": "How execution time or memory requirements scale as input size increases",
+    "options": [
+      "How execution time or memory requirements scale as input size increases",
+      "The physical speed at which CPU transistors switch state",
+      "The total number of lines of source code in the algorithm",
+      "The download bandwidth required to install software packages"
+    ],
+    "fact": "Rate of growth of algorithm complexity refers to how the running time or resource usage of an algorithm increases as input size grows. It is commonly represented using Big O notation, which describes the upper bound on worst-case time complexity. Understanding rate of growth is crucial in comparing algorithm efficiency."
+  },
+  {
+    "id": 63,
+    "tag": "asymptotic notations",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What are asymptotic notations (Big O, Big \u03a9, Big \u0398) used for?",
+    "answer": "Describing algorithm performance bounds as input size approaches infinity",
+    "options": [
+      "Describing algorithm performance bounds as input size approaches infinity",
+      "Specifying network socket buffer sizes in megabytes",
+      "Labeling database column constraints in SQL schemas",
+      "Configuring compiler optimization levels for binary builds"
+    ],
+    "fact": "Asymptotic notations describe the upper and/or lower bounds on algorithm complexity. Common notations include Big O, Omega, and Theta notation. Big O describes the upper bound on worst-case time complexity, Omega describes the lower bound on best-case time complexity, and Theta describes both upper and lower bounds. They are used to analyze and compare algorithm efficiency."
+  },
+  {
+    "id": 64,
+    "tag": "time-space trade offs",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is a time-space trade-off in algorithm design?",
+    "answer": "Reducing execution time by using more memory, or reducing memory at the cost of time",
+    "options": [
+      "Reducing execution time by using more memory, or reducing memory at the cost of time",
+      "Trading GPU computational cores for higher network throughput",
+      "Balancing developer work hours against software release dates",
+      "Converting 64-bit integer calculations into 32-bit floating point"
+    ],
+    "fact": "Time-space trade offs refer to the trade-off between the amount of time (or computational resources) an algorithm takes and the amount of memory (or space) it uses. In some cases, an algorithm may use more memory to reduce its running time, or vice versa. Finding the right balance between time and space usage is an important consideration in algorithm design and optimization."
+  },
+  {
+    "id": 65,
+    "tag": "operations on strings",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which of the following is a fundamental string operation?",
+    "answer": "Concatenation, substring extraction, and length calculation",
+    "options": [
+      "Concatenation, substring extraction, and length calculation",
+      "Matrix transposition and determinant computation",
+      "Graph topological sorting and vertex coloring",
+      "B-tree page balancing and pointer rotation"
+    ],
+    "fact": "Operations on strings typically include concatenation (joining), substring extraction, length calculation, searching, and modification (such as replacing characters or converting case). Strings are commonly used for handling text data in programming languages and have built-in functions or methods to perform these operations efficiently."
+  },
+  {
+    "id": 66,
+    "tag": "word processing",
+    "category": "Computer Science",
+    "difficulty": "Easy",
+    "question": "What is word processing software designed for?",
+    "answer": "Creating, editing, formatting, and printing text documents",
+    "options": [
+      "Creating, editing, formatting, and printing text documents",
+      "Compiling assembly code into ELF binaries",
+      "Routing IPv6 packets across wide area networks",
+      "Analyzing high-energy particle physics datasets"
+    ],
+    "fact": "Word processing refers to the creation, editing, and formatting of documents containing text. Word processing software, such as Microsoft Word, Google Docs, or LibreOffice Writer, provides tools and features for creating and editing documents with various formatting options, such as fonts, styles, headers, footers, and more."
+  },
+  {
+    "id": 67,
+    "tag": "pattern matching algorithms",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What is the purpose of pattern matching algorithms (e.g., KMP, Boyer-Moore)?",
+    "answer": "Finding occurrences of a pattern string within a larger body of text efficiently",
+    "options": [
+      "Finding occurrences of a pattern string within a larger body of text efficiently",
+      "Identifying deadlocks in operating system thread scheduling",
+      "Compressing audio frequencies below human hearing thresholds",
+      "Generating balanced binary search trees from unsorted lists"
+    ],
+    "fact": "Pattern matching algorithms are used to find occurrences of a specific pattern within a larger sequence of data. They are commonly used in various applications such as text search, data retrieval, and image processing. Examples of pattern matching algorithms include naive pattern matching, Knuth-Morris-Pratt (KMP) algorithm, and Boyer-Moore algorithm. These algorithms are designed to efficiently search for patterns in large datasets."
+  },
+  {
+    "id": 68,
+    "tag": "one-dimensional arrays",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "How are elements stored in a one-dimensional array?",
+    "answer": "Contiguously in linear memory accessible by index in O(1) time",
+    "options": [
+      "Contiguously in linear memory accessible by index in O(1) time",
+      "Non-contiguously across random heap nodes linked by pointers",
+      "In hierarchical parent-child nodes arranged as a tree",
+      "As key-value pairs hashed into distributed memory buckets"
+    ],
+    "fact": "One-dimensional arrays are data structures that store a collection of elements in a linear sequence. They are commonly used to represent a list of items, such as numbers or strings, and can be accessed using an index. Searching and sorting algorithms, such as linear search, binary search, bubble sort, and insertion sort, can be applied to one-dimensional arrays to efficiently search and sort the elements."
+  },
+  {
+    "id": 69,
+    "tag": "multi-dimensional arrays",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "How is a two-dimensional array typically represented in linear physical memory?",
+    "answer": "In row-major order or column-major order contiguously",
+    "options": [
+      "In row-major order or column-major order contiguously",
+      "As an unorganized collection of independent heap pointers",
+      "As a circular linked list of doubly linked nodes",
+      "By duplicating all rows across separate RAM channels"
+    ],
+    "fact": "Multi-dimensional arrays are data structures that store elements in more than one dimension, such as rows and columns. They are used to represent complex data structures, such as matrices or tables. Matrix multiplication is a common operation performed on multi-dimensional arrays, where two matrices are multiplied to obtain a new matrix. Sparse matrices, which contain mostly zero elements, are a special type of multi-dimensional arrays that require specialized algorithms for efficient storage and manipulation."
+  },
+  {
+    "id": 70,
+    "tag": "searching algorithms for arrays",
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is the prerequisite for using binary search on an array?",
+    "answer": "The array elements must be sorted in order",
+    "options": [
+      "The array elements must be sorted in order",
+      "The array must contain only positive integers",
+      "The array size must be an exact power of two",
+      "The array must be stored on non-volatile flash memory"
+    ],
+    "fact": "Searching algorithms for arrays are techniques used to find the position or existence of a particular element in an array. Common searching algorithms include linear search, binary search, and hash-based search. Linear search involves iterating through each element of the array sequentially until the target element is found. Binary search, on the other hand, requires the array to be sorted and involves repeatedly dividing the search interval in half to narrow down the search. Hash-based search uses a hash function to compute the index of the target element, which allows for faster searches in large arrays."
+  },
+  {
+    "id": 71,
+    "tag": "sorting algorithms for arrays",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is the average time complexity of Quick Sort and Merge Sort?",
+    "answer": "O(n log n)",
+    "options": [
+      "O(n log n)",
+      "O(n\u00b2)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "fact": "Sorting algorithms for arrays are techniques used to rearrange the elements of an array in a particular order. Common sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, and quick sort. Bubble sort compares adjacent elements in the array and swaps them if they are in the wrong order, repeatedly iterating through the array until it is sorted. Selection sort involves selecting the smallest or largest element in the unsorted portion of the array and moving it to its correct position. Insertion sort works by repeatedly inserting the next unsorted element into its correct position among the already sorted elements. Merge sort and quick sort are more efficient algorithms that use divide-and-conquer techniques to sort the array."
+  },
+  {
+    "id": 72,
+    "tag": "matrix multiplication",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "For two matrices A (m x k) and B (k x n) to be multiplied, what condition is required?",
+    "answer": "The number of columns in A must equal the number of rows in B",
+    "options": [
+      "The number of columns in A must equal the number of rows in B",
+      "Both matrices must be square matrices of identical size",
+      "All elements in both matrices must be prime numbers",
+      "Matrix B must be the exact transpose of matrix A"
+    ],
+    "fact": "Matrix multiplication is a mathematical operation that involves multiplying two matrices to obtain a new matrix. It is commonly used in various applications, such as graphics processing, scientific computing, and data analysis. Matrix multiplication requires matching dimensions between the two matrices, where the number of columns in the first matrix must be equal to the number of rows in the second matrix. The resulting matrix has dimensions that are the product of the dimensions of the original matrices. Matrix multiplication can be performed using various algorithms, such as the standard method, the Strassen algorithm for large matrices, and optimized algorithms for sparse matrices."
+  },
+  {
+    "id": 73,
+    "tag": "sparse matrices",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What defines a sparse matrix and how is it efficiently stored?",
+    "answer": "A matrix where most elements are zero, stored by keeping only non-zero coordinates",
+    "options": [
+      "A matrix where most elements are zero, stored by keeping only non-zero coordinates",
+      "A matrix containing complex numbers stored in high-speed GPU cache",
+      "A matrix that can only have dimensions of 2x2 or 3x3",
+      "A dense matrix where every cell stores a 64-bit floating point value"
+    ],
+    "fact": "Sparse matrices are matrices that contain mostly zero elements, where only a small fraction of the elements are non-zero. Sparse matrices are common in many real-world applications, such as network analysis, image processing, and recommendation systems. Storing and manipulating sparse matrices efficiently requires specialized algorithms that take advantage of their sparsity. Common techniques include compressed sparse row (CSR) format, compressed sparse column (CSC) format, and coordinate list (COO) format. These formats store only the non-zero elements and their indices, which can greatly reduce the memory and computational requirements for sparse matrix operations."
+  },
+  {
+    "id": 74,
+    "tag": "stacks",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which principle governs a Stack data structure?",
+    "answer": "LIFO (Last In, First Out)",
+    "options": [
+      "LIFO (Last In, First Out)",
+      "FIFO (First In, First Out)",
+      "Random Access by key hash",
+      "Priority based on weight values"
+    ],
+    "fact": "A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle. It allows data to be added or removed only from the top, or the head, of the stack. Common stack operations include push (adding an element to the top of the stack), pop (removing the top element from the stack), and peek (viewing the top element without removing it). Stacks are used in many applications, such as function call stack, expression evaluation, and undo/redo functionality in software applications."
+  },
+  {
+    "id": 75,
+    "tag": "queues",
+    "category": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which principle governs a standard Queue data structure?",
+    "answer": "FIFO (First In, First Out)",
+    "options": [
+      "FIFO (First In, First Out)",
+      "LIFO (Last In, First Out)",
+      "Highest Priority First only",
+      "Random Access by memory offset"
+    ],
+    "fact": "A queue is a linear data structure that follows the First-In, First-Out (FIFO) principle. It allows data to be added at the rear, or the tail, of the queue and removed from the front, or the head, of the queue. Common queue operations include enqueue (adding an element to the rear of the queue), dequeue (removing the front element from the queue), and peek (viewing the front element without removing it). Queues are used in many applications, such as task scheduling, message passing, and printer queues."
+  },
+  {
+    "id": 76,
+    "tag": "recursion",
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What are the two essential components of a recursive function?",
+    "answer": "A base case (termination condition) and a recursive step",
+    "options": [
+      "A base case (termination condition) and a recursive step",
+      "A while loop and a break statement",
+      "A mutex lock and a condition variable",
+      "A database connection and an SQL transaction"
+    ],
+    "fact": "Recursion is a programming technique where a function calls itself in its own definition. It allows for solving complex problems by breaking them down into smaller, simpler subproblems that are solved recursively. Recursion can be used to solve problems that exhibit a divide and conquer or top-down approach, where a problem is divided into smaller subproblems until a base case is reached. Recursion can be powerful but should be used with caution to prevent infinite loops or stack overflow errors."
+  },
+  {
+    "id": 77,
+    "tag": "polish_notation",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "In Reverse Polish Notation (Postfix), how are operators placed?",
+    "answer": "Operators follow their operands (e.g., '3 4 +')",
+    "options": [
+      "Operators follow their operands (e.g., '3 4 +')",
+      "Operators precede their operands (e.g., '+ 3 4')",
+      "Operators are enclosed strictly within parentheses",
+      "Operands and operators are interleaved at random indices"
+    ],
+    "fact": "Polish Notation, also known as Prefix Notation, is a mathematical notation where operators are placed before their operands. For example, in Polish Notation, the expression '+ 2 3' would represent the addition of 2 and 3. Polish Notation eliminates the need for parentheses and provides a unique and unambiguous way to represent mathematical expressions."
+  },
+  {
+    "id": 78,
+    "tag": "quick_sort",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What algorithmic paradigm does Quick Sort use?",
+    "answer": "Divide and Conquer (partitioning around a pivot)",
+    "options": [
+      "Divide and Conquer (partitioning around a pivot)",
+      "Greedy heuristic selection",
+      "Dynamic programming with memoization",
+      "Brute force exhaustive backtracking"
+    ],
+    "fact": "Quick-sort is a popular comparison-based sorting algorithm that uses a divide-and-conquer strategy to sort an array of elements. It selects a pivot element from the array, partitions the array into smaller subarrays based on the pivot, and recursively sorts the subarrays. Quick-sort has an average-case time complexity of O(n log n), making it efficient for large datasets. However, its worst-case time complexity is O(n^2) in the case of an already sorted or nearly sorted array."
+  },
+  {
+    "id": 79,
+    "tag": "deques",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What capability defines a Double-Ended Queue (Deque)?",
+    "answer": "Insertion and deletion can be performed at both front and rear ends in O(1)",
+    "options": [
+      "Insertion and deletion can be performed at both front and rear ends in O(1)",
+      "Elements can only be inserted at the front and removed at the rear",
+      "It automatically sorts elements whenever a new value is pushed",
+      "It stores duplicate copies of every element on secondary storage"
+    ],
+    "fact": "A deque, short for double-ended queue, is a linear data structure that allows elements to be added or removed from both ends. It combines the features of a stack and a queue, allowing for insertion and deletion at both the front and rear. Deques can be used in various applications, such as implementing algorithms that require efficient insertion and deletion at both ends, such as sliding window algorithms, and palindrome checking."
+  },
+  {
+    "id": 80,
+    "tag": "priority_queues",
+    "category": "Data Structures",
+    "difficulty": "Medium",
+    "question": "How does a Priority Queue differ from a standard Queue?",
+    "answer": "Elements are served according to priority rather than pure arrival order",
+    "options": [
+      "Elements are served according to priority rather than pure arrival order",
+      "It enforces strict LIFO ordering like a call stack",
+      "It allows items to be accessed only via binary search",
+      "It forbids inserting elements with numeric priority values"
+    ],
+    "fact": "A priority queue is a data structure that assigns a priority to each element and allows for elements to be removed based on their priority. The element with the highest or lowest priority is removed first, depending on whether it is a max priority queue or a min priority queue. Priority queues are commonly used in applications that require processing elements based on their priority, such as scheduling tasks with different priorities, finding the shortest path in a graph, or simulating event-driven systems."
+  },
+  {
+    "id": 81,
+    "tag": "factorial_calculation",
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is the mathematical definition of n factorial (n!) for n > 0?",
+    "answer": "The product of all positive integers less than or equal to n",
+    "options": [
+      "The product of all positive integers less than or equal to n",
+      "The sum of all integers from 1 to n",
+      "The square of n multiplied by Euler's constant",
+      "The binary logarithm of n rounded down"
+    ],
+    "fact": "Factorial calculation is the process of finding the product of all positive integers from 1 up to a given integer. It is denoted by the exclamation mark (!) symbol. For example, the factorial of 5 is calculated as 5! = 5 x 4 x 3 x 2 x 1 = 120. Factorial calculation is commonly used in various mathematical and statistical calculations, as well as in recursive algorithms, combinatorics, and probability calculations."
+  },
+  {
+    "id": 82,
+    "tag": "fibonacci_series",
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "How is each term after the first two defined in the Fibonacci series?",
+    "answer": "The sum of the two preceding terms: F(n) = F(n-1) + F(n-2)",
+    "options": [
+      "The sum of the two preceding terms: F(n) = F(n-1) + F(n-2)",
+      "The product of the two preceding terms: F(n) = F(n-1) * F(n-2)",
+      "Double the immediately previous term: F(n) = 2 * F(n-1)",
+      "The integer square root of the previous term"
+    ],
+    "fact": "The Fibonacci series is a sequence of numbers in which each number is the sum of the two preceding numbers, starting from 0 and 1. The series typically starts with 0, 1, 1, 2, 3, 5, 8, 13, and so on. Fibonacci series is commonly used in various mathematical and computational applications, such as in generating Fibonacci spirals, modeling growth patterns, and optimizing algorithms, such as dynamic programming and memoization."
+  },
+  {
+    "id": 83,
+    "tag": "adders",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is the difference between a Half Adder and a Full Adder?",
+    "answer": "A Full Adder adds three 1-bit inputs (including carry-in); a Half Adder adds only two",
+    "options": [
+      "A Full Adder adds three 1-bit inputs (including carry-in); a Half Adder adds only two",
+      "A Half Adder works on 32-bit words; a Full Adder works on 64-bit words",
+      "A Half Adder uses sequential flip-flops; a Full Adder uses combinational gates",
+      "A Full Adder cannot generate a carry output"
+    ],
+    "fact": "Adders are digital circuits used in computer hardware to perform addition of binary numbers. They can add two or more binary numbers and produce a sum output. Adders can be implemented using various techniques, such as half-adders, full-adders, ripple carry adders, carry-lookahead adders, and carry-skip adders. Adders are fundamental components used in arithmetic and logical operations in computer systems."
+  },
+  {
+    "id": 84,
+    "tag": "decoders",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is the primary function of a digital decoder (e.g. 2-to-4 decoder)?",
+    "answer": "Converting an n-bit binary input code into a unique 2^n active output line",
+    "options": [
+      "Converting an n-bit binary input code into a unique 2^n active output line",
+      "Combining 2^n input lines into an n-bit binary output code",
+      "Storing binary bits across clock cycles using feedback",
+      "Converting digital voltage levels into continuous analog waveforms"
+    ],
+    "fact": "Decoders are digital circuits used in computer hardware to convert encoded input data into a set of output signals. They are commonly used in address decoding, where they translate an address into a specific location in memory or a particular device. Decoders can be implemented using various techniques, such as binary decoders, BCD decoders, and priority encoders. Decoders are essential components used in computer systems for address decoding, data routing, and control signal generation."
+  },
+  {
+    "id": 85,
+    "tag": "encoders",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What does a digital encoder do?",
+    "answer": "Converts 2^n input lines into an n-bit binary coded output",
+    "options": [
+      "Converts 2^n input lines into an n-bit binary coded output",
+      "Decodes binary instructions into microcode control signals",
+      "Multiplies two multi-bit binary numbers using shift registers",
+      "Stores persistent configuration settings in non-volatile ROM"
+    ],
+    "fact": "Encoders are digital circuits used in computer hardware to convert input data into a coded output representation. They are commonly used in data encoding, where they convert a set of input signals into a binary code or other encoded format. Encoders can be implemented using various techniques, such as priority encoders, binary encoders, and BCD encoders. Encoders are essential components used in computer systems for data encoding, signal transmission, and control signal generation."
+  },
+  {
+    "id": 86,
+    "tag": "multiplexers",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is the role of a Multiplexer (MUX)?",
+    "answer": "Selecting one of several input signals and forwarding it into a single output line",
+    "options": [
+      "Selecting one of several input signals and forwarding it into a single output line",
+      "Distributing a single input signal across multiple output lines",
+      "Converting synchronous clock signals into asynchronous pulses",
+      "Comparing two binary numbers to determine mathematical equality"
+    ],
+    "fact": "Multiplexers, often abbreviated as mux, are digital circuits used in computer hardware to select one of several input signals and route it to a single output line. They are commonly used in data multiplexing, where they allow multiple signals to share a single transmission medium or storage location. Multiplexers can be implemented using various techniques, such as 2-to-1 multiplexers, 4-to-1 multiplexers, and n-to-1 multiplexers. Multiplexers are essential components used in computer systems for data routing, signal selection, and control signal generation."
+  },
+  {
+    "id": 87,
+    "tag": "demultiplexers",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What does a Demultiplexer (DEMUX) accomplish?",
+    "answer": "Takes a single input line and routes it to one of many selected output lines",
+    "options": [
+      "Takes a single input line and routes it to one of many selected output lines",
+      "Aggregates multiple inputs onto a single shared transmission line",
+      "Performs arithmetic addition and subtraction on binary operands",
+      "Regulates power supply voltages delivered to CPU cores"
+    ],
+    "fact": "Demultiplexers, often abbreviated as demux, are digital circuits used in computer hardware to route a single input signal to one of several output lines. They are commonly used in data demultiplexing, where they allow a single signal to be distributed to multiple destinations. Demultiplexers can be implemented using various techniques, such as 1-to-2 demultiplexers, 1-to-4 demultiplexers, and 1-to-n demultiplexers. Demultiplexers are essential components used in computer systems for data routing, signal distribution, and control signal generation."
+  },
+  {
+    "id": 88,
+    "tag": "binary_code_converters",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is the primary purpose of code converters (e.g., Binary to Gray code)?",
+    "answer": "Translating information from one binary representation format to another",
+    "options": [
+      "Translating information from one binary representation format to another",
+      "Compiling JavaScript scripts into machine assembly instructions",
+      "Converting AC electrical line voltage into DC motherboard power",
+      "Encrypting plaintext files using RSA public key cryptography"
+    ],
+    "fact": "Binary code converters are digital circuits used in computer hardware to convert one type of binary code into another type of binary code. They can convert between different binary representations, such as binary to Gray code, binary to BCD, or BCD to binary. Binary code converters are commonly used in data encoding, decoding, and signal processing in computer systems."
+  },
+  {
+    "id": 89,
+    "tag": "latches_and_flip_flops",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What distinguishes a Flip-Flop from a basic Latch?",
+    "answer": "Flip-flops are edge-triggered (clocked); latches are level-sensitive",
+    "options": [
+      "Flip-flops are edge-triggered (clocked); latches are level-sensitive",
+      "Flip-flops store 8 bytes; latches can only store 1 bit",
+      "Latches are synchronous; flip-flops are strictly combinational circuits",
+      "Flip-flops lose data when power is connected; latches retain data indefinitely"
+    ],
+    "fact": "Latches and flip flops are digital circuits used in computer hardware for storing and holding binary data. They are commonly used for sequential logic, where the output depends not only on the current inputs but also on the previous state. Latches and flip flops can be implemented using various techniques, such as D flip flops, JK flip flops, SR flip flops, and T flip flops. They are fundamental components used in computer systems for storing data, controlling timing, and synchronizing signals."
+  },
+  {
+    "id": 90,
+    "tag": "shift_registers",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is a shift register primarily used for?",
+    "answer": "Storing and shifting binary data linearly with each clock pulse",
+    "options": [
+      "Storing and shifting binary data linearly with each clock pulse",
+      "Computing floating-point trigonometric functions",
+      "Routing TCP packets across local area networks",
+      "Translating high-level source code into bytecode"
+    ],
+    "fact": "Shift registers are digital circuits used in computer hardware for shifting and storing data in a serial manner. They are commonly used for data storage, data manipulation, and data communication. Shift registers can be implemented using various techniques, such as serial-in, serial-out (SISO), parallel-in, serial-out (PISO), serial-in, parallel-out (SIPO), and parallel-in, parallel-out (PIPO). Shift registers are essential components used in computer systems for data processing, data transmission, and control signal generation."
+  },
+  {
+    "id": 91,
+    "tag": "asynchronous_counters",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "Why are asynchronous (ripple) counters slower than synchronous counters?",
+    "answer": "Clock signals ripple through each flip-flop sequentially, accumulating propagation delay",
+    "options": [
+      "Clock signals ripple through each flip-flop sequentially, accumulating propagation delay",
+      "They require external analog clock crystals for every single bit",
+      "All flip-flops are triggered simultaneously by a master clock edge",
+      "They can only count in descending order from high to low values"
+    ],
+    "fact": "Asynchronous counters, also known as ripple counters, are digital circuits used in computer hardware for counting events or generating timing signals. They are commonly used for counting and timing applications where the output changes asynchronously with respect to the clock signal. Asynchronous counters can be implemented using various techniques, such as binary counters, decade counters, and up/down counters. They are widely used in computer systems for counting events, generating timing signals, and controlling system operations."
+  },
+  {
+    "id": 92,
+    "tag": "mealy_and_moore_machines",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "What is the key difference between Mealy and Moore finite state machines?",
+    "answer": "Mealy outputs depend on current state and inputs; Moore outputs depend solely on current state",
+    "options": [
+      "Mealy outputs depend on current state and inputs; Moore outputs depend solely on current state",
+      "Moore machines cannot have input signals; Mealy machines have no outputs",
+      "Mealy machines are purely combinational; Moore machines are purely analog",
+      "Moore outputs change asynchronously without any clock signal"
+    ],
+    "fact": "Mealy and Moore machines are types of finite state machines (FSMs) used in computer hardware for designing sequential logic circuits. They are used for controlling system operations, generating control signals, and processing data based on the current state and input signals. Mealy machines produce output signals based on both the current state and input signals, while Moore machines produce output signals based only on the current state. Mealy and Moore machines are essential components used in computer systems for state-based control, data processing, and system operation."
+  },
+  {
+    "id": 93,
+    "tag": "synchronous_counters",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "How do synchronous counters eliminate ripple propagation delay?",
+    "answer": "All flip-flops share a common clock signal and transition simultaneously",
+    "options": [
+      "All flip-flops share a common clock signal and transition simultaneously",
+      "By removing all flip-flops and using combinational XOR gates only",
+      "By routing the output of each flip-flop directly to the next clock input",
+      "By operating completely without any electrical clock pulses"
+    ],
+    "fact": "Synchronous counters are digital circuits used in computer hardware for counting events or generating timing signals. They are synchronized with a clock signal, and the output changes simultaneously with the clock edge. Synchronous counters can be implemented using various techniques, such as binary counters, decade counters, and up/down counters. They are widely used in computer systems for counting events, generating timing signals, and controlling system operations."
+  },
+  {
+    "id": 94,
+    "tag": "state_minimization_techniques",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "What is the purpose of state minimization in sequential circuit design?",
+    "answer": "Reducing the number of states to minimize required flip-flops and logic gates",
+    "options": [
+      "Reducing the number of states to minimize required flip-flops and logic gates",
+      "Minimizing the clock frequency to save thermal battery power",
+      "Converting synchronous circuits into asynchronous ripple counters",
+      "Replacing digital state machines with analog operational amplifiers"
+    ],
+    "fact": "State minimization techniques are used in digital circuit design to optimize the number of states in a finite state machine (FSM). They reduce the complexity and size of the FSM by eliminating redundant or unreachable states. State minimization techniques, such as state assignment, state encoding, and state reduction, are used to improve the efficiency and performance of digital systems by minimizing the number of states needed to represent the system behavior."
+  },
+  {
+    "id": 95,
+    "tag": "read_only_memory",
+    "category": "Computer Architecture",
+    "difficulty": "Easy",
+    "question": "What is Read-Only Memory (ROM)?",
+    "answer": "Non-volatile memory that retains stored data even when power is turned off",
+    "options": [
+      "Non-volatile memory that retains stored data even when power is turned off",
+      "Volatile high-speed memory erased upon system shutdown",
+      "A magnetic storage medium used exclusively for tape backups",
+      "A CPU cache register used for fast arithmetic operations"
+    ],
+    "fact": "Read Only Memory (ROM) is a type of computer memory that stores data permanently and cannot be modified after initial programming. It is used for storing firmware, BIOS, and other system-level software that needs to be retained even when the computer is powered off. ROM is non-volatile memory and is widely used in computer systems for storing critical system-level information."
+  },
+  {
+    "id": 96,
+    "tag": "programmable_array_logic",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "What configuration characterizes Programmable Array Logic (PAL)?",
+    "answer": "Programmable AND array with fixed OR array",
+    "options": [
+      "Programmable AND array with fixed OR array",
+      "Fixed AND array with programmable OR array",
+      "Both AND and OR arrays are fully programmable",
+      "Fixed AND array with fixed OR array"
+    ],
+    "fact": "Programmable Array Logic (PAL) is a type of digital logic device used in digital circuit design for implementing combinational logic functions. It consists of an array of programmable AND gates followed by programmable OR gates, allowing the designer to configure the logic functions based on specific requirements. PAL is a type of programmable logic device (PLD) and is commonly used in digital systems for implementing custom logic functions."
+  },
+  {
+    "id": 97,
+    "tag": "programmable_logic_array",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "What configuration characterizes a Programmable Logic Array (PLA)?",
+    "answer": "Both the AND array and the OR array are fully programmable",
+    "options": [
+      "Both the AND array and the OR array are fully programmable",
+      "Programmable AND array with fixed OR array",
+      "Fixed AND array with programmable OR array",
+      "Neither array is programmable; all connections are permanent"
+    ],
+    "fact": "Programmable Logic Array (PLA) is a type of digital logic device used in digital circuit design for implementing combinational and sequential logic functions. It consists of an array of programmable AND gates followed by programmable OR gates, along with programmable flip-flops, allowing the designer to configure both combinational and sequential logic functions. PLA is a type of programmable logic device (PLD) and is commonly used in digital systems for implementing custom logic functions."
+  },
+  {
+    "id": 98,
+    "tag": "instruction_set_architecture",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What does an Instruction Set Architecture (ISA) define?",
+    "answer": "The boundary interface between software and hardware including instructions, registers, and memory addressing",
+    "options": [
+      "The boundary interface between software and hardware including instructions, registers, and memory addressing",
+      "The physical layout of silicon transistors on the CPU die",
+      "The chassis cooling fan curve algorithms in the BIOS",
+      "The network cabling standards used in datacenters"
+    ],
+    "fact": "Instruction Set Architecture (ISA) is a set of instructions and formats used by a computer's central processing unit (CPU) to execute operations or perform tasks. It defines the interface between the hardware and software of a computer system, including the instructions, data types, addressing modes, and memory organization. ISA plays a crucial role in determining the overall performance and functionality of a computer system."
+  },
+  {
+    "id": 99,
+    "tag": "accumulator_based",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "How does an Accumulator-based CPU architecture operate?",
+    "answer": "Arithmetic operations implicitly use a single dedicated accumulator register as an operand and result destination",
+    "options": [
+      "Arithmetic operations implicitly use a single dedicated accumulator register as an operand and result destination",
+      "Operations push and pop all operands exclusively on a hardware stack",
+      "Every instruction specifies three general-purpose registers",
+      "Memory-to-memory operations execute without any internal registers"
+    ],
+    "fact": "Accumulator-based architecture is a type of computer architecture where the CPU has a dedicated register called an accumulator that is used to store intermediate results during computation. The accumulator serves as a temporary storage location for arithmetic and logical operations, and the results are stored back in the accumulator. Accumulator-based architecture is simple and commonly used in early computer systems and microcontrollers."
+  },
+  {
+    "id": 100,
+    "tag": "stack_based",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "How do instructions in a Stack-based processor architecture (e.g. JVM) handle operands?",
+    "answer": "Operands are implicitly popped from the top of the stack and results pushed back",
+    "options": [
+      "Operands are implicitly popped from the top of the stack and results pushed back",
+      "Operands must be explicitly referenced by 64-bit memory addresses",
+      "All operations write results directly to persistent flash storage",
+      "Each instruction requires three distinct hardware register operands"
+    ],
+    "fact": "Stack-based architecture is a type of computer architecture where the CPU uses a stack to store operands and results during computation. Instead of dedicated registers, operands are pushed onto the stack, and operations are performed using stack-based instructions. Stack-based architecture is used in some special-purpose processors and can simplify instruction decoding and register management."
+  },
+  {
+    "id": 101,
+    "tag": "register_memory",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What characterizes a Register-Memory architecture (e.g. x86)?",
+    "answer": "Instructions can perform arithmetic directly between a register and a memory location",
+    "options": [
+      "Instructions can perform arithmetic directly between a register and a memory location",
+      "Arithmetic instructions can only operate strictly on CPU registers",
+      "Memory can never be accessed without passing through I/O ports",
+      "All registers are mapped to remote network storage drives"
+    ],
+    "fact": "Register-Memory architecture is a type of computer architecture where the CPU has both registers and main memory for data storage. Registers are used for temporary storage of operands and results, while main memory serves as a larger, slower storage for data and instructions. Register-Memory architecture is commonly used in modern computer systems as it allows for faster data access and efficient use of registers for computation."
+  },
+  {
+    "id": 102,
+    "tag": "register_register",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What characterizes a Register-Register (Load-Store / RISC) architecture?",
+    "answer": "Arithmetic instructions operate only on registers; memory access is restricted to Load/Store",
+    "options": [
+      "Arithmetic instructions operate only on registers; memory access is restricted to Load/Store",
+      "Every arithmetic instruction can take two direct memory operands",
+      "Registers do not exist; all operations execute in main RAM",
+      "Stack pointers must be updated manually after every instruction"
+    ],
+    "fact": "Register-Register architecture is a type of computer architecture where the CPU uses registers for both operands and results during computation. Operations are performed directly between registers, and results are stored back in registers. Register-Register architecture is commonly used in modern computer systems as it allows for fast data processing and efficient use of registers for computation."
+  },
+  {
+    "id": 103,
+    "tag": "instruction_encoding",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the main advantage of fixed-length instruction encoding (e.g. RISC) over variable-length encoding?",
+    "answer": "Simpler and faster instruction decoding and easier hardware pipelining",
+    "options": [
+      "Simpler and faster instruction decoding and easier hardware pipelining",
+      "Highest possible code density and minimal memory consumption",
+      "Support for unlimited distinct addressing modes per instruction",
+      "Ability to encode 1024-bit immediate values in a single word"
+    ],
+    "fact": "Instruction encoding techniques refer to the methods used to represent and encode instructions in a computer system. This includes determining the format of instructions, specifying the opcode and operands, and defining the instruction set architecture. Instruction encoding techniques are crucial for efficient instruction execution and play a significant role in overall system performance."
+  },
+  {
+    "id": 104,
+    "tag": "computer_performance",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "In the classic CPU performance equation, how is CPU Time calculated?",
+    "answer": "Instruction Count x Clock Cycles Per Instruction (CPI) x Clock Cycle Time",
+    "options": [
+      "Instruction Count x Clock Cycles Per Instruction (CPI) x Clock Cycle Time",
+      "Clock Frequency / Total RAM Capacity",
+      "Number of Cores x Hard Drive Read Speed",
+      "Bus Bandwidth x Operating System Kernel Version"
+    ],
+    "fact": "Computer performance refers to the measurement of a computer system's ability to execute instructions and process data within a given time period. It is influenced by various factors, including CPU speed, memory capacity, storage capacity, and system architecture. Computer performance is a critical consideration in designing and optimizing computer systems for specific tasks or applications."
+  },
+  {
+    "id": 105,
+    "tag": "common_pitfalls",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "Why is relying solely on clock frequency (MHz/GHz) a pitfall when comparing processor performance?",
+    "answer": "Different architectures achieve different amounts of work per cycle (CPI / IPC)",
+    "options": [
+      "Different architectures achieve different amounts of work per cycle (CPI / IPC)",
+      "Clock frequency changes randomly every microsecond",
+      "Higher clock frequencies always consume zero additional power",
+      "CPUs do not use clock signals for synchronization"
+    ],
+    "fact": "Common pitfalls in computer performance include inefficient algorithms, poor memory management, excessive I/O operations, inefficient resource utilization, and suboptimal system configurations. These issues can negatively impact system performance and result in slow execution, high resource usage, and poor responsiveness. Identifying and addressing common pitfalls is essential for optimizing computer performance."
+  },
+  {
+    "id": 106,
+    "tag": "amdahls_law",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What does Amdahl's Law predict about parallel computing?",
+    "answer": "Overall speedup is strictly limited by the sequential (non-parallelizable) portion of a task",
+    "options": [
+      "Overall speedup is strictly limited by the sequential (non-parallelizable) portion of a task",
+      "Adding more processors will always result in infinite linear speedup",
+      "The memory hierarchy speed doubles every 18 months",
+      "Network latency decreases exponentially with cable length"
+    ],
+    "fact": "Amdahl's Law is a formula used to estimate the potential speedup of a computer system by optimizing a portion of the system, while keeping the rest unchanged. It states that the overall speedup is limited by the fraction of the system that is optimized. Amdahl's Law is commonly used to understand the trade-offs and limitations of performance improvements in parallel computing systems."
+  },
+  {
+    "id": 107,
+    "tag": "memory_hierarchy",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "How is the computer memory hierarchy structured from fastest/smallest to slowest/largest?",
+    "answer": "Registers -> L1/L2/L3 Cache -> Main Memory (RAM) -> Secondary Storage (SSD/HDD)",
+    "options": [
+      "Registers -> L1/L2/L3 Cache -> Main Memory (RAM) -> Secondary Storage (SSD/HDD)",
+      "Secondary Storage -> Main Memory -> L3 Cache -> Registers",
+      "Main Memory -> Registers -> L1 Cache -> SSD",
+      "L3 Cache -> RAM -> Registers -> Cloud Storage"
+    ],
+    "fact": "Memory hierarchy refers to the organization of different levels of memory in a computer system, ranging from high-speed but small-capacity registers and caches to slower but larger-capacity main memory and secondary storage. Memory hierarchy is designed to optimize the trade-offs between speed, capacity, and cost, and plays a critical role in overall system performance."
+  },
+  {
+    "id": 108,
+    "tag": "cache_memory",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What hardware principle makes CPU cache memory effective?",
+    "answer": "Locality of reference (temporal and spatial locality)",
+    "options": [
+      "Locality of reference (temporal and spatial locality)",
+      "Asymmetric public-key cryptographic encryption",
+      "Random distribution of memory addresses across DRAM banks",
+      "Direct memory access without CPU bus arbitration"
+    ],
+    "fact": "Cache memory is a small, high-speed memory that sits between the CPU and main memory in a computer system. It stores frequently accessed data and instructions to reduce the CPU's access time to main memory, thereby improving system performance. Cache memory is an important component of the memory hierarchy and is typically organized into multiple levels, such as L1, L2, and L3 caches."
+  },
+  {
+    "id": 109,
+    "tag": "bus_standards",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What is the role of standard computer buses (like PCIe, USB, SATA)?",
+    "answer": "Providing standardized communication pathways and protocols between system components",
+    "options": [
+      "Providing standardized communication pathways and protocols between system components",
+      "Powering server cooling fans with alternating current",
+      "Compiling high-level programming code into machine instructions",
+      "Synchronizing operating system thread locks across remote datacenters"
+    ],
+    "fact": "Bus standards refer to the specifications and protocols used for communication between different hardware components in a computer system. Buses are used to transfer data, addresses, and control signals between CPU, memory, I/O devices, and other hardware components. Examples of bus standards include PCI (Peripheral Component Interconnect), USB (Universal Serial Bus), and SATA (Serial ATA). Bus standards play a crucial role in ensuring compatibility and interoperability among different hardware components."
+  },
+  {
+    "id": 110,
+    "tag": "arbitration_schemes",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the purpose of bus arbitration in multi-master computer systems?",
+    "answer": "Resolving access conflicts when multiple devices request control of the shared bus simultaneously",
+    "options": [
+      "Resolving access conflicts when multiple devices request control of the shared bus simultaneously",
+      "Compressing video signals before transmission to display monitors",
+      "Translating virtual memory pages to physical frame numbers",
+      "Regulating voltage levels delivered to motherboard chips"
+    ],
+    "fact": "Arbitration schemes are used to manage access to shared resources, such as buses or memory, in a computer system. They determine how requests for access to shared resources are prioritized and granted. Common arbitration schemes include priority-based, round-robin, and token-based schemes. Arbitration schemes are crucial for managing concurrent access to shared resources and ensuring fair and efficient resource allocation."
+  },
+  {
+    "id": 111,
+    "tag": "programmed_io",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the main drawback of Programmed I/O (polling)?",
+    "answer": "The CPU wastes significant processing cycles constantly checking device status",
+    "options": [
+      "The CPU wastes significant processing cycles constantly checking device status",
+      "It requires dedicated hardware DMA controllers on every bus",
+      "It cannot read or write data to secondary storage devices",
+      "It triggers unpredictable hardware interrupt storms on the CPU"
+    ],
+    "fact": "Programmed I/O is a method of input/output (I/O) operation in a computer system where the CPU directly controls the transfer of data between the CPU and I/O devices. In programmed I/O, the CPU executes I/O instructions to read from or write to I/O devices, and the CPU is responsible for managing the entire I/O operation. Programmed I/O is simple but can be inefficient as it requires the CPU to wait for I/O operations to complete."
+  },
+  {
+    "id": 112,
+    "tag": "interrupt_driven_io",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "How does Interrupt-Driven I/O improve upon Programmed I/O?",
+    "answer": "The CPU is freed to execute other work until the I/O device signals readiness via an interrupt",
+    "options": [
+      "The CPU is freed to execute other work until the I/O device signals readiness via an interrupt",
+      "The I/O device directly rewrites the CPU's register set without kernel intervention",
+      "It removes the need for device driver software entirely",
+      "It transmits data faster than the speed of light through optical buses"
+    ],
+    "fact": "Interrupt-driven I/O is a method of input/output (I/O) operation in a computer system where I/O devices generate interrupts to notify the CPU when they are ready to send or receive data. When an interrupt is received, the CPU suspends its current execution and jumps to an interrupt service routine (ISR) to handle the I/O operation. Interrupt-driven I/O allows the CPU to perform other tasks while waiting for I/O operations to complete, improving overall system efficiency."
+  },
+  {
+    "id": 113,
+    "tag": "direct_memory_access",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is Direct Memory Access (DMA)?",
+    "answer": "A hardware feature allowing I/O devices to transfer data directly to/from RAM without continuous CPU involvement",
+    "options": [
+      "A hardware feature allowing I/O devices to transfer data directly to/from RAM without continuous CPU involvement",
+      "A CPU instruction that bypasses the L1 cache for direct register writes",
+      "An operating system tool for direct SQL database queries",
+      "A memory management technique that eliminates virtual addressing"
+    ],
+    "fact": "Direct Memory Access (DMA) is a technique that allows I/O devices to transfer data directly to or from main memory without involving the CPU. DMA offloads the CPU from the time-consuming task of transferring data, improving system performance. DMA controllers manage the data transfer process, and the CPU is only involved in setting up the DMA operation and handling interrupts when the transfer is complete."
+  },
+  {
+    "id": 114,
+    "tag": "cap_theorem",
+    "category": "Databases",
+    "difficulty": "Hard",
+    "question": "According to the CAP Theorem, a distributed data store can simultaneously guarantee at most two of which three properties?",
+    "answer": "Consistency, Availability, and Partition Tolerance",
+    "options": [
+      "Consistency, Availability, and Partition Tolerance",
+      "Concurrency, Atomicity, and Performance",
+      "Capacity, Accuracy, and Parallelism",
+      "Confidentiality, Authentication, and Persistence"
+    ],
+    "fact": "CAP Theorem, also known as Brewer's Theorem, states that in a distributed database system, it is impossible to simultaneously guarantee consistency, availability, and partition tolerance. According to CAP Theorem, in the event of a network partition, a distributed database system must choose between maintaining consistency (all nodes have the same data), availability (all requests receive a response), or partition tolerance (system continues to operate despite network failures). This theorem has important implications for the design and trade-offs in distributed databases."
+  },
+  {
+    "id": 115,
+    "tag": "distributed_databases",
+    "category": "Databases",
+    "difficulty": "Hard",
+    "question": "What is a distributed database?",
+    "answer": "A database spread across multiple interconnected computers over a network that appears as a single unified system",
+    "options": [
+      "A database spread across multiple interconnected computers over a network that appears as a single unified system",
+      "A single SQLite database file stored on an unformatted USB drive",
+      "A relational database table containing only JSON blob columns",
+      "A database that can only be queried through localized command line terminals"
+    ],
+    "fact": "Distributed databases are databases that are spread across multiple nodes or servers in a computer network. Each node may store a subset of data and may have its own processing power. Distributed databases allow for scalable and fault-tolerant data storage and processing, as well as efficient data access and retrieval. However, managing consistency, availability, and partition tolerance can be challenging in distributed databases, and various techniques and algorithms are used to ensure data integrity and reliability."
+  },
+  {
+    "id": 116,
+    "tag": "decision_support_systems",
+    "category": "Databases",
+    "difficulty": "Medium",
+    "question": "What is the primary function of a Decision Support System (DSS)?",
+    "answer": "Analyzing vast amounts of operational data to assist organization executives in making strategic decisions",
+    "options": [
+      "Analyzing vast amounts of operational data to assist organization executives in making strategic decisions",
+      "Compiling C++ programs for multi-architecture deployment",
+      "Managing real-time packet filtering on enterprise firewalls",
+      "Controlling robot motor servos on assembly line manufacturing floors"
+    ],
+    "fact": "Decision Support Systems (DSS) are computer-based systems that provide analytical tools and information to support decision-making processes in organizations. DSS can analyze large amounts of data, generate reports, and provide interactive interfaces for decision-makers to explore different scenarios and make informed decisions. DSS are commonly used in business, finance, healthcare, and other domains where complex decisions need to be made based on data analysis and modeling."
+  },
+  {
+    "id": 117,
+    "tag": "data_warehousing",
+    "category": "Databases",
+    "difficulty": "Medium",
+    "question": "What is a Data Warehouse?",
+    "answer": "A centralized repository of integrated, historical data collected from multiple sources for reporting and analytics",
+    "options": [
+      "A centralized repository of integrated, historical data collected from multiple sources for reporting and analytics",
+      "A temperature-controlled physical room housing server racks",
+      "A transient in-memory cache used for web session storage",
+      "A database backup tape library stored in an offline vault"
+    ],
+    "fact": "Data warehousing is the process of collecting, storing, and managing large volumes of data from different sources in a central repository, called a data warehouse. Data warehouses are designed to support efficient querying, analysis, and reporting of data for decision-making purposes. Data warehousing involves data extraction, transformation, and loading (ETL) processes, as well as data modeling and indexing techniques to optimize data retrieval and analysis."
+  },
+  {
+    "id": 118,
+    "tag": "instruction_level_parallelism",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is Instruction-Level Parallelism (ILP)?",
+    "answer": "Executing multiple independent machine instructions simultaneously within a single processor pipeline",
+    "options": [
+      "Executing multiple independent machine instructions simultaneously within a single processor pipeline",
+      "Running multiple operating systems on virtual machine hypervisors",
+      "Connecting multiple server motherboards through 100GbE fiber cables",
+      "Distributing SQL queries across remote sharded database nodes"
+    ],
+    "fact": "Instruction Level Parallelism (ILP) refers to the ability of a processor to execute multiple instructions in parallel, thereby improving the overall throughput of the processor. ILP is achieved through techniques such as instruction pipelining, superscalar execution, and out-of-order execution, which allow multiple instructions to be fetched, decoded, and executed simultaneously."
+  },
+  {
+    "id": 119,
+    "tag": "pipeline_hazards",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What are the three main types of hazards that stall CPU pipelines?",
+    "answer": "Structural hazards, Data hazards, and Control hazards",
+    "options": [
+      "Structural hazards, Data hazards, and Control hazards",
+      "Thermal hazards, Voltage hazards, and Silicon hazards",
+      "Network hazards, Disk hazards, and Bus hazards",
+      "Syntax hazards, Runtime hazards, and Logic hazards"
+    ],
+    "fact": "Pipeline hazards are situations that can occur in pipelined processors where the normal flow of instructions through the pipeline is disrupted, resulting in reduced performance. Pipeline hazards can be categorized into three types: structural hazards, data hazards, and control hazards. Structural hazards occur when multiple instructions require the same hardware resource, data hazards occur when instructions depend on the results of previous instructions, and control hazards occur when the outcome of a conditional branch instruction is not known until later in the pipeline."
+  },
+  {
+    "id": 120,
+    "tag": "data_level_parallelism",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What hardware technique exemplifies Data-Level Parallelism (DLP)?",
+    "answer": "SIMD (Single Instruction, Multiple Data) / Vector Processing",
+    "options": [
+      "SIMD (Single Instruction, Multiple Data) / Vector Processing",
+      "Sequential single-core instruction execution",
+      "Interrupt-driven asynchronous disk paging",
+      "Spinlock synchronization across distributed servers"
+    ],
+    "fact": "Data Level Parallelism refers to the ability of a processor to perform multiple operations on different data elements simultaneously. Data Level Parallelism can be achieved through techniques such as vector processing, SIMD (Single Instruction, Multiple Data) instructions, and parallel processing on multi-core processors or GPUs. Data Level Parallelism allows for efficient processing of large amounts of data in parallel, resulting in improved performance and throughput."
+  },
+  {
+    "id": 121,
+    "tag": "branch_prediction",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "Why do modern pipelined CPUs use branch prediction?",
+    "answer": "To guess instruction flow ahead of time and avoid pipeline stall bubbles on conditional jumps",
+    "options": [
+      "To guess instruction flow ahead of time and avoid pipeline stall bubbles on conditional jumps",
+      "To automatically correct syntax errors in compiled programs",
+      "To predict physical hardware component failures before they occur",
+      "To compress instruction cache sizes on mobile processors"
+    ],
+    "fact": "Branch prediction is a technique used in modern processors to optimize instruction execution in the presence of conditional branches. Branches are instructions that can change the flow of program execution, and predicting the outcome of a branch before it is actually resolved can improve instruction fetch and execution efficiency. Techniques such as static branch prediction (based on instruction statistics), dynamic branch prediction (based on past execution behavior), and tournament branch prediction (combining multiple prediction techniques) are commonly used to reduce the performance impact of branches in pipelined processors."
+  },
+  {
+    "id": 122,
+    "tag": "multiple_issue_architectures",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What defines a superscalar multiple-issue processor?",
+    "answer": "The ability to issue and execute more than one instruction per clock cycle",
+    "options": [
+      "The ability to issue and execute more than one instruction per clock cycle",
+      "A processor that can only execute instructions sequentially one cycle at a time",
+      "A motherboard that contains multiple physical CPU sockets",
+      "A system that distributes code across remote cloud computing nodes"
+    ],
+    "fact": "Multiple Issue Architectures, also known as Superscalar Architectures, refer to processors that can issue and execute multiple instructions per clock cycle. These processors can analyze instruction dependencies and resource availability to dynamically issue multiple instructions for execution in parallel. Multiple Issue Architectures can improve the instruction-level parallelism and overall throughput of the processor, allowing for more efficient instruction execution and higher performance."
+  },
+  {
+    "id": 123,
+    "tag": "software_process_models",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What is a software process model (e.g. Waterfall, Agile, Spiral)?",
+    "answer": "A structured framework of activities and stages used to guide software development from conception to delivery",
+    "options": [
+      "A structured framework of activities and stages used to guide software development from conception to delivery",
+      "A mathematical model for measuring silicon processor heat dissipation",
+      "A relational database normalization schema",
+      "A design pattern used strictly for user interface rendering"
+    ],
+    "fact": "Software Process Models are abstract representations of the steps, activities, and tasks involved in developing software. They provide a framework for managing the software development process, from initial requirements gathering to final software delivery. Examples of software process models include Waterfall, Agile, Scrum, Spiral, and Iterative models, each with its own set of characteristics, advantages, and disadvantages."
+  },
+  {
+    "id": 124,
+    "tag": "requirements_engineering_process",
+    "category": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "What are the core phases of the Requirements Engineering Process?",
+    "answer": "Elicitation, Analysis, Specification, Validation, and Management",
+    "options": [
+      "Elicitation, Analysis, Specification, Validation, and Management",
+      "Compilation, Linking, Loading, Execution, and Debugging",
+      "Branching, Staging, Committing, Pushing, and Merging",
+      "Initialization, Allocation, Execution, Garbage Collection, and Deallocation"
+    ],
+    "fact": "Requirements Engineering Process is the systematic approach to identifying, analyzing, documenting, and managing the requirements of a software system. It involves activities such as gathering, validating, and prioritizing user requirements, defining system requirements, and establishing traceability between requirements and system components. Requirements Engineering Process is critical for ensuring that software systems are developed to meet the needs of their intended users and stakeholders."
+  },
+  {
+    "id": 125,
+    "tag": "planning_and_scheduling",
+    "category": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "Why is milestone planning and scheduling critical in software engineering management?",
+    "answer": "To estimate effort, allocate resources, track project progress, and manage delivery deadlines",
+    "options": [
+      "To estimate effort, allocate resources, track project progress, and manage delivery deadlines",
+      "To optimize processor clock cycles during algorithmic sorting",
+      "To prevent database deadlocks in distributed transactions",
+      "To automate the generation of responsive CSS media queries"
+    ],
+    "fact": "Planning and Scheduling in software development involves defining the scope, objectives, and timeline of a software project, and allocating resources, tasks, and responsibilities to meet project goals. It includes activities such as creating project plans, defining milestones, estimating effort, and creating project schedules. Planning and Scheduling are essential for effective project management, resource allocation, and tracking progress towards project completion."
+  },
+  {
+    "id": 126,
+    "tag": "risk_management",
+    "category": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "What is software risk management?",
+    "answer": "Identifying, assessing, and mitigating potential project uncertainties and hazards before they cause failure",
+    "options": [
+      "Identifying, assessing, and mitigating potential project uncertainties and hazards before they cause failure",
+      "Encrypting source code repositories with 256-bit AES",
+      "Running unit tests exclusively on cloud staging servers",
+      "Eliminating all code comments to reduce bundle file sizes"
+    ],
+    "fact": "Risk Management in software development involves identifying, assessing, and mitigating risks that could potentially impact the success of a software project. It includes activities such as risk identification, risk analysis, risk prioritization, and risk mitigation planning. Risk Management helps in proactively identifying potential issues and taking appropriate measures to minimize their impact on the project's timeline, budget, and quality."
+  },
+  {
+    "id": 127,
+    "tag": "software_quality_assurance",
+    "category": "Software Engineering",
+    "difficulty": "Medium",
+    "question": "What is the goal of Software Quality Assurance (SQA)?",
+    "answer": "Ensuring software processes and products meet defined standards, requirements, and user expectations",
+    "options": [
+      "Ensuring software processes and products meet defined standards, requirements, and user expectations",
+      "Purchasing high-end enterprise server hardware",
+      "Minimizing developer team salaries to reduce operational costs",
+      "Increasing source code file sizes to demonstrate productivity"
+    ],
+    "fact": "Software Quality Assurance (SQA) is a set of systematic activities that ensure that software products and processes meet specified quality standards. SQA involves activities such as defining quality requirements, creating and implementing quality plans, conducting quality audits, and verifying adherence to established quality processes. SQA aims to prevent defects, improve software quality, and ensure that software products are reliable, efficient, and meet customer expectations."
+  },
+  {
+    "id": 128,
+    "tag": "cocomo_model",
+    "category": "Software Engineering",
+    "difficulty": "Hard",
+    "question": "What does the Constructive Cost Model (COCOMO) estimate?",
+    "answer": "Software project effort, cost, and development schedule based on size (KLOC)",
+    "options": [
+      "Software project effort, cost, and development schedule based on size (KLOC)",
+      "Hardware cooling requirements for enterprise datacenters",
+      "Network bandwidth consumption for streaming video platforms",
+      "The memory overhead of garbage-collected programming languages"
+    ],
+    "fact": "The COCOMO (Constructive Cost Model) is a software cost estimation model that helps in estimating the effort, time, and resources required to develop a software system. It is based on various factors such as the size of the project, complexity, development team's experience, and other project-specific parameters. COCOMO model is widely used for estimating software development costs and resource allocation in software projects."
+  },
+  {
+    "id": 129,
+    "tag": "software_maintenance",
+    "category": "Software Engineering",
+    "difficulty": "Easy",
+    "question": "What are the four categories of software maintenance?",
+    "answer": "Corrective, Adaptive, Perfective, and Preventive",
+    "options": [
+      "Corrective, Adaptive, Perfective, and Preventive",
+      "Static, Dynamic, Volatile, and Persistent",
+      "Synchronous, Asynchronous, Parallel, and Distributed",
+      "Encrypted, Decrypted, Hashed, and Signed"
+    ],
+    "fact": "Software Maintenance refers to the activities performed after the delivery of a software system to ensure its proper functioning, performance, and reliability over time. It involves activities such as bug fixing, enhancements, updates, and optimization of the software system. Software Maintenance is a crucial part of the software development lifecycle as it helps in improving the longevity and sustainability of software systems."
+  },
+  {
+    "id": 130,
+    "tag": "osi_reference_model",
+    "category": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "How many layers are defined in the standard OSI Reference Model?",
+    "answer": "7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application)",
+    "options": [
+      "7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application)",
+      "4 layers (Network Interface, Internet, Transport, Application)",
+      "5 layers (Hardware, Driver, Kernel, Middleware, Software)",
+      "3 layers (Presentation, Logic, Database)"
+    ],
+    "fact": "The OSI (Open Systems Interconnection) reference model is a conceptual model that describes the communication protocols used in computer networks. It is based on a layered architecture that defines seven layers, each responsible for specific network functions. The OSI reference model provides a common framework for understanding and designing network protocols, allowing interoperability between different network systems and devices."
+  },
+  {
+    "id": 131,
+    "tag": "tcp_ip_reference_model",
+    "category": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "How many layers comprise the standard TCP/IP reference model?",
+    "answer": "4 layers (Network Access, Internet, Transport, Application)",
+    "options": [
+      "4 layers (Network Access, Internet, Transport, Application)",
+      "7 layers (Physical through Application)",
+      "2 layers (Client and Server)",
+      "10 layers (Hardware through Cloud)"
+    ],
+    "fact": "The TCP/IP (Transmission Control Protocol/Internet Protocol) reference model is a widely used protocol suite for computer networks and the Internet. It defines a set of communication protocols that enable data transmission over networks. The TCP/IP reference model is based on a four-layered architecture that includes the Application, Transport, Internet, and Network Access layers. It is the foundation of modern networking and is used for communication between devices connected to the Internet."
+  },
+  {
+    "id": 132,
+    "tag": "software_defined_networking",
+    "category": "Computer Networks",
+    "difficulty": "Hard",
+    "question": "What is the fundamental architectural principle of Software-Defined Networking (SDN)?",
+    "answer": "Decoupling the network control plane (decision-making) from the data plane (packet forwarding)",
+    "options": [
+      "Decoupling the network control plane (decision-making) from the data plane (packet forwarding)",
+      "Replacing all optical fiber cables with wireless Bluetooth mesh links",
+      "Hardcoding routing tables into silicon ROM chips",
+      "Running web servers entirely on client browser web workers"
+    ],
+    "fact": "Software Defined Networking (SDN) is an approach to network management that separates the control plane from the data plane in a network. It allows network administrators to programmatically control and manage network resources using software-based controllers, decoupling the network's control logic from the physical infrastructure. SDN offers flexibility, scalability, and programmability in managing networks, making it ideal for modern network architectures."
+  },
+  {
+    "id": 133,
+    "tag": "virtual_network_functions",
+    "category": "Computer Networks",
+    "difficulty": "Hard",
+    "question": "What are Virtual Network Functions (VNFs)?",
+    "answer": "Software implementations of network functions (firewalls, routers, NAT) running on virtualized commodity hardware",
+    "options": [
+      "Software implementations of network functions (firewalls, routers, NAT) running on virtualized commodity hardware",
+      "Hardware ASIC chips installed on proprietary network switches",
+      "JavaScript functions executed within client browser windows",
+      "Cryptographic hashing routines used in Bitcoin mining rigs"
+    ],
+    "fact": "Virtual Network Functions (VNFs) are software-based network functions that can be run on virtualized infrastructure, such as virtual machines or containers. VNFs replace traditional network appliances, such as routers, switches, and firewalls, with software-based counterparts that can be deployed, scaled, and managed dynamically. VNFs offer flexibility, agility, and cost savings in network management, allowing network operators to virtualize and automate network functions."
+  },
+  {
+    "id": 134,
+    "tag": "ip_addressing",
+    "category": "Computer Networks",
+    "difficulty": "Easy",
+    "question": "What is the length of standard IPv4 and IPv6 addresses respectively?",
+    "answer": "IPv4 is 32 bits (4 bytes); IPv6 is 128 bits (16 bytes)",
+    "options": [
+      "IPv4 is 32 bits (4 bytes); IPv6 is 128 bits (16 bytes)",
+      "IPv4 is 64 bits; IPv6 is 256 bits",
+      "IPv4 is 16 bits; IPv6 is 32 bits",
+      "IPv4 is 128 bits; IPv6 is 512 bits"
+    ],
+    "fact": "IP addressing is a system used to uniquely identify devices on a computer network. It involves assigning a unique IP (Internet Protocol) address to each device, such as a computer, server, or router, that participates in the network. IP addresses are used for routing data packets across networks, enabling communication between devices. IPv4 and IPv6 are the two most commonly used IP addressing schemes."
+  },
+  {
+    "id": 135,
+    "tag": "ip_subnetting",
+    "category": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "What is the purpose of IP subnetting?",
+    "answer": "Dividing a single network into smaller sub-networks to improve routing efficiency and security",
+    "options": [
+      "Dividing a single network into smaller sub-networks to improve routing efficiency and security",
+      "Translating domain names like google.com into IP numbers",
+      "Encrypting packet payloads using symmetric session keys",
+      "Increasing the physical voltage carried over Ethernet cables"
+    ],
+    "fact": "IP subnetting is the process of dividing a larger IP network into smaller subnets or subnetworks. It involves allocating a portion of the IP address space for each subnet, which allows for more efficient use of IP addresses and better network management. Subnetting helps in reducing network congestion, improving security, and optimizing network performance."
+  },
+  {
+    "id": 136,
+    "tag": "network_routing",
+    "category": "Computer Networks",
+    "difficulty": "Medium",
+    "question": "What is network routing?",
+    "answer": "The process of selecting optimal paths for traffic packets across one or more networks",
+    "options": [
+      "The process of selecting optimal paths for traffic packets across one or more networks",
+      "Converting high-level C++ code into machine assembly",
+      "Formatting magnetic hard disk partitions before installing an OS",
+      "Balancing load across CPU cores using thread scheduling"
+    ],
+    "fact": "Network routing is the process of selecting the optimal path for data packets to travel from the source to the destination in a computer network. It involves making decisions on how to forward data packets based on routing tables, protocols, and network conditions. Network routing determines the most efficient and reliable path for data packets, ensuring timely delivery and efficient use of network resources."
+  },
+  {
+    "id": 137,
+    "tag": "computational_intelligence",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "What paradigms constitute Computational Intelligence?",
+    "answer": "Neural networks, fuzzy systems, and evolutionary computation",
+    "options": [
+      "Neural networks, fuzzy systems, and evolutionary computation",
+      "Relational databases, SQL queries, and normalization",
+      "HTML parsers, CSS layout engines, and JavaScript interpreters",
+      "CPU cache memory hierarchies and branch predictors"
+    ],
+    "fact": "Computational Intelligence is a field of study that combines concepts from computer science, artificial intelligence, and cognitive science to develop intelligent algorithms and systems. It encompasses various techniques, such as fuzzy logic, neural networks, evolutionary algorithms, and swarm intelligence, to solve complex problems that are not easily solved by traditional computing methods."
+  },
+  {
+    "id": 138,
+    "tag": "searching_methodologies",
+    "category": "Algorithms",
+    "difficulty": "Medium",
+    "question": "In AI search methodologies, what distinguishes informed (heuristic) search (e.g. A*) from uninformed search (e.g. BFS)?",
+    "answer": "Informed search uses problem-specific knowledge/heuristics to guide path exploration efficiently",
+    "options": [
+      "Informed search uses problem-specific knowledge/heuristics to guide path exploration efficiently",
+      "Informed search explores all graph nodes blindly without evaluating goals",
+      "Uninformed search is guaranteed to never find any valid solution",
+      "Informed search requires supercomputing hardware to evaluate nodes"
+    ],
+    "fact": "Searching Methodologies are techniques used in computer science and artificial intelligence to find optimal solutions to problems within a search space. They involve systematically exploring a search space to find the most desirable solution based on predefined criteria. Examples of searching methodologies include depth-first search, breadth-first search, A* algorithm, and hill climbing."
+  },
+  {
+    "id": 139,
+    "tag": "first_order_logic",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What does First-Order Logic (FOL) add over propositional logic?",
+    "answer": "Objects, relations, functions, and quantifiers (\u2200 and \u2203)",
+    "options": [
+      "Objects, relations, functions, and quantifiers (\u2200 and \u2203)",
+      "Bitwise boolean gates and truth tables",
+      "Continuous neural network weight parameters",
+      "Relational database foreign key constraints"
+    ],
+    "fact": "First-Order Logic, also known as Predicate Logic, is a formal language used in mathematical logic and computer science to express relationships between objects and make logical inferences. It extends propositional logic by introducing quantifiers, such as 'forall' and 'exists', to express statements about groups of objects and their properties. First-Order Logic is widely used in areas such as knowledge representation, automated reasoning, and theorem proving."
+  },
+  {
+    "id": 140,
+    "tag": "genetic_algorithms",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What biological mechanisms inspire Genetic Algorithms?",
+    "answer": "Natural selection, crossover (recombination), and mutation",
+    "options": [
+      "Natural selection, crossover (recombination), and mutation",
+      "Neural synapse neurotransmitter diffusion",
+      "Bacterial flagellar motion and chemotaxis",
+      "Cellular mitosis and nuclear fission"
+    ],
+    "fact": "Genetic Algorithms are a type of optimization algorithm inspired by the process of natural selection. They are used in computer science and artificial intelligence to find approximate solutions to optimization problems. Genetic Algorithms mimic the process of natural selection by evolving a population of candidate solutions over multiple generations through genetic operations such as mutation, crossover, and selection. Genetic Algorithms are used in a wide range of applications, including optimization, scheduling, and machine learning."
+  },
+  {
+    "id": 141,
+    "tag": "evolutionary_strategies",
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What is an Evolutionary Strategy in optimization?",
+    "answer": "An optimization technique based on natural evolution using mutation and selection on continuous parameters",
+    "options": [
+      "An optimization technique based on natural evolution using mutation and selection on continuous parameters",
+      "A compiler optimization that minimizes loop branching",
+      "A network routing protocol that adapts to dropped packets",
+      "A database indexing strategy for unstructured document stores"
+    ],
+    "fact": "Evolutionary Strategies are a class of optimization algorithms that are based on the principles of natural selection and evolution. They are used in computer science and artificial intelligence to find approximate solutions to optimization problems. Evolutionary Strategies use mutation and selection operators to evolve a population of candidate solutions over multiple generations, with the goal of improving the fitness of the solutions. Evolutionary Strategies are widely used in optimization, parameter tuning, and feature selection in machine learning and other areas."
+  },
+  {
+    "id": 142,
+    "tag": "kernels",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is an operating system's kernel?",
+    "answer": "The core program that has complete control over all system hardware and resources",
+    "options": [
+      "The core program that has complete control over all system hardware and resources",
+      "A graphical desktop user interface application",
+      "A command line shell script for compiling source files",
+      "A device driver dedicated strictly to audio playback"
+    ],
+    "fact": "Kernels are the central components of an operating system that manage and facilitate communication between hardware and software components. They provide essential services such as process management, memory management, device drivers, and system calls. Kernels can be classified into different types, such as monolithic kernels, microkernels, and hybrid kernels, based on their architecture and design philosophy."
+  },
+  {
+    "id": 143,
+    "tag": "processes",
+    "category": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is a process in an operating system?",
+    "answer": "A program in execution, including its program counter, registers, and address space",
+    "options": [
+      "A program in execution, including its program counter, registers, and address space",
+      "A passive file stored on a hard disk drive",
+      "A physical silicon execution core on a CPU",
+      "A database query waiting in a network buffer"
+    ],
+    "fact": "Processes are instances of a program in execution, managed by an operating system. They are isolated from each other and have their own memory space, file descriptors, and other system resources. Processes can communicate with each other through inter-process communication (IPC) mechanisms, and they can be in different states, such as running, waiting, or terminated. Processes are a fundamental concept in operating systems for managing and executing concurrent tasks."
+  },
+  {
+    "id": 144,
+    "tag": "threads",
+    "category": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "How does a thread differ from a process?",
+    "answer": "A thread is a lightweight execution unit that shares address space with other threads in the same process",
+    "options": [
+      "A thread is a lightweight execution unit that shares address space with other threads in the same process",
+      "A thread has its own completely isolated memory address space",
+      "A process cannot contain more than a single thread",
+      "Threads cannot execute concurrently on multi-core processors"
+    ],
+    "fact": "Threads are lightweight, independent sequences of instructions within a process that can be executed concurrently by a single CPU. Threads share the same memory space and file descriptors with their parent process, allowing for efficient communication and coordination. Threads can be used to achieve parallelism and improve performance in multi-core processors. There are various types of threads, such as user-level threads and kernel-level threads, with different levels of thread management and support from the operating system."
+  },
+  {
+    "id": 145,
+    "tag": "deadlock",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is a deadlock in an operating system?",
+    "answer": "A state where a set of processes are blocked because each is holding a resource and waiting for another",
+    "options": [
+      "A state where a set of processes are blocked because each is holding a resource and waiting for another",
+      "A hardware crash caused by an overheated CPU core",
+      "A process terminating abnormally due to a syntax error",
+      "A memory leak that slowly consumes all available RAM"
+    ],
+    "fact": "Deadlock is a situation in a concurrent system where two or more processes or threads are waiting for each other to release a resource, causing a permanent halt in the progress of the system. Deadlock can occur when processes or threads compete for resources, such as shared memory, files, or hardware devices, and acquire them in an incompatible order or with insufficient synchronization. Deadlock can lead to system instability and performance degradation, and it requires careful handling through techniques such as resource allocation, scheduling, and deadlock detection and recovery."
+  },
+  {
+    "id": 146,
+    "tag": "scheduling_algorithms",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which of the following is a classic CPU scheduling algorithm?",
+    "answer": "Round Robin (RR), Shortest Job First (SJF), and First-Come First-Served (FCFS)",
+    "options": [
+      "Round Robin (RR), Shortest Job First (SJF), and First-Come First-Served (FCFS)",
+      "Quick Sort, Merge Sort, and Heap Sort",
+      "Dijkstra's Algorithm and Bellman-Ford",
+      "AES, RSA, and SHA-256"
+    ],
+    "fact": "Scheduling Algorithms are algorithms used by an operating system to determine the order in which processes or threads are executed on a CPU. Scheduling algorithms play a critical role in managing system resources, maximizing CPU utilization, minimizing response time, and ensuring fairness among processes or threads. There are various types of scheduling algorithms, such as First-Come, First-Served (FCFS), Shortest Job Next (SJN), Round Robin (RR), and Priority-based, each with its own advantages, disadvantages, and suitability for different types of systems and workloads."
+  },
+  {
+    "id": 147,
+    "tag": "memory_management",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is the primary role of the Memory Management Unit (MMU)?",
+    "answer": "Translating virtual addresses generated by the CPU into physical RAM addresses",
+    "options": [
+      "Translating virtual addresses generated by the CPU into physical RAM addresses",
+      "Encrypting all hard drive sectors with asymmetric keys",
+      "Controlling CPU fan speeds based on core temperature sensors",
+      "Scheduling thread execution time slices on CPU cores"
+    ],
+    "fact": "Memory Management is the process of allocating and managing the primary memory (RAM) in a computer system. It involves techniques such as memory allocation, deallocation, and swapping to efficiently utilize the available memory for executing processes or threads, managing memory fragmentation, and providing memory protection to prevent unauthorized access."
+  },
+  {
+    "id": 148,
+    "tag": "secondary_storage_management",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is secondary storage management responsible for?",
+    "answer": "Managing persistent storage space, free space lists, disk scheduling, and data allocation",
+    "options": [
+      "Managing persistent storage space, free space lists, disk scheduling, and data allocation",
+      "Refreshing volatile DRAM capacitors every few milliseconds",
+      "Handling L1 cache hits and misses inside the CPU pipeline",
+      "Translating virtual memory pages to CPU registers"
+    ],
+    "fact": "Secondary Storage Management involves the management of non-volatile storage devices, such as hard disk drives and solid-state drives, in a computer system. It includes tasks such as file system creation, partitioning, formatting, and managing file storage, retrieval, and deletion. Secondary storage management also involves techniques such as caching, buffering, and virtual memory to optimize data storage and retrieval."
+  },
+  {
+    "id": 149,
+    "tag": "file_management",
+    "category": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the function of a File System (e.g. NTFS, ext4)?",
+    "answer": "Organizing, naming, storing, retrieving, and protecting data files on storage devices",
+    "options": [
+      "Organizing, naming, storing, retrieving, and protecting data files on storage devices",
+      "Translating machine instructions into microcode",
+      "Routing IP packets across local area network interfaces",
+      "Synthesizing 3D graphics polygons for GPU display pipelines"
+    ],
+    "fact": "File Management is the process of organizing, storing, and managing files in a computer system. It involves tasks such as file creation, deletion, renaming, copying, moving, and organizing files into directories or folders. File management also includes file access permissions, file sharing, and file system integrity and consistency checking to ensure reliable and secure storage and retrieval of data."
+  },
+  {
+    "id": 150,
+    "tag": "io_management",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is the role of device drivers in operating system I/O management?",
+    "answer": "Providing a standard interface between device controllers and the OS kernel",
+    "options": [
+      "Providing a standard interface between device controllers and the OS kernel",
+      "Writing assembly code directly into CPU hardware registers",
+      "Converting user password strings into cryptographic hashes",
+      "Rendering vector fonts on high-DPI display screens"
+    ],
+    "fact": "I/O Management is the process of managing input and output operations in a computer system. It involves tasks such as device driver management, device communication, and data transfer between the CPU, memory, and I/O devices, such as keyboards, mice, printers, and network interfaces. I/O management also includes buffering, caching, and error handling mechanisms to ensure reliable and efficient I/O operations."
+  },
+  {
+    "id": 151,
+    "tag": "disk_scheduling",
+    "category": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is the objective of disk scheduling algorithms (e.g. SSTF, SCAN, C-SCAN)?",
+    "answer": "Minimizing total seek time and maximizing disk read/write throughput",
+    "options": [
+      "Minimizing total seek time and maximizing disk read/write throughput",
+      "Formatting disk sectors with cryptographic file encryption",
+      "Balancing operating system CPU load across hyperthreaded cores",
+      "Compressing video files to fit on portable flash drives"
+    ],
+    "fact": "Disk Scheduling is the process of determining the order in which disk I/O requests are serviced by a disk drive to optimize the disk access time and throughput. Disk scheduling algorithms determine the most efficient way to access data on a disk by reducing the seek time, rotational latency, and head movement. Common disk scheduling algorithms include First-Come, First-Served (FCFS), Shortest Seek Time First (SSTF), SCAN, C-SCAN, and LOOK, each with its own advantages, disadvantages, and suitability for different types of disk workloads."
+  },
+  {
+    "id": 152,
+    "tag": "internal_bus_architecture",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What are the three primary buses in microprocessor internal architecture?",
+    "answer": "Data bus, Address bus, and Control bus",
+    "options": [
+      "Data bus, Address bus, and Control bus",
+      "Serial bus, Ethernet bus, and Video bus",
+      "Input bus, Process bus, and Output bus",
+      "Register bus, Cache bus, and Disk bus"
+    ],
+    "fact": "Internal Bus Architecture refers to the design and organization of buses within a microprocessor or microcontroller system. It includes the data bus, address bus, and control bus, which are used for communication and data transfer between different components of the system, such as the CPU, memory, and I/O devices."
+  },
+  {
+    "id": 153,
+    "tag": "pin_functions",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "What do pin functions on a microprocessor chip define?",
+    "answer": "The physical electrical inputs/outputs for power, clock, addresses, data, and control signals",
+    "options": [
+      "The physical electrical inputs/outputs for power, clock, addresses, data, and control signals",
+      "The CSS styling layout of responsive user interface buttons",
+      "The cryptographic hash algorithms used for user authentication",
+      "The database table indexes used for fast binary search queries"
+    ],
+    "fact": "Pin Functions refer to the various functions and roles of pins or terminals in a microprocessor or microcontroller. Pins are used for communication, control, and data transfer between the microprocessor and external components, such as memory, I/O devices, and other peripherals. Pin functions are specified by the microprocessor's architecture and are used for tasks such as addressing, data transfer, interrupts, and control signals."
+  },
+  {
+    "id": 154,
+    "tag": "memory_addressing_schemes",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the difference between Direct Addressing and Indirect Addressing?",
+    "answer": "Direct addressing contains the target address; indirect addressing contains an address pointing to the target address",
+    "options": [
+      "Direct addressing contains the target address; indirect addressing contains an address pointing to the target address",
+      "Direct addressing uses RAM; indirect addressing uses hard drives only",
+      "Direct addressing is 64-bit; indirect addressing is strictly 8-bit",
+      "Direct addressing uses CPU cache; indirect addressing bypasses the CPU"
+    ],
+    "fact": "Memory Addressing Schemes are techniques used to access and identify specific locations or addresses in memory for reading from or writing to. Common memory addressing schemes include direct addressing, indirect addressing, indexed addressing, and register-indirect addressing. These schemes determine how memory addresses are calculated or referenced in microprocessor instructions."
+  },
+  {
+    "id": 155,
+    "tag": "bus_buffering",
+    "category": "Digital Logic",
+    "difficulty": "Hard",
+    "question": "Why is bus buffering used in microprocessor systems?",
+    "answer": "To amplify signal strength and prevent electrical loading when driving many peripheral circuits",
+    "options": [
+      "To amplify signal strength and prevent electrical loading when driving many peripheral circuits",
+      "To compress binary data sent over serial network cables",
+      "To cache high-level JavaScript code before execution",
+      "To convert digital signals into audible sound waves"
+    ],
+    "fact": "Bus Buffering is the use of buffer circuits to isolate and amplify the signals transmitted over buses in a microprocessor or microcontroller system. Bus buffering helps to improve signal integrity, minimize noise, and reduce the load on the driving and receiving components connected to the bus. Bus buffers are typically used to isolate the CPU from other components, such as memory and I/O devices."
+  },
+  {
+    "id": 156,
+    "tag": "bus_cycles",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is a bus cycle in microprocessor operations?",
+    "answer": "The sequence of clock states required to perform a read or write transfer on the system bus",
+    "options": [
+      "The sequence of clock states required to perform a read or write transfer on the system bus",
+      "The physical rotation speed of magnetic hard disk platters",
+      "The life cycle of an operating system background daemon process",
+      "The periodic refresh rate of an LCD display monitor"
+    ],
+    "fact": "Bus Cycles refer to the series of events that occur during the transfer of data or instructions over a bus in a microprocessor or microcontroller system. Bus cycles typically involve several stages, such as address setup, address hold, data setup, data hold, and control signals, which are synchronized by the system clock. Bus cycles determine the timing and coordination of data transfers and operations in a microprocessor system."
+  },
+  {
+    "id": 157,
+    "tag": "clock_generation_circuit",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What is the purpose of a clock generation circuit in digital systems?",
+    "answer": "Generating precise periodic square-wave signals to synchronize all sequential operations",
+    "options": [
+      "Generating precise periodic square-wave signals to synchronize all sequential operations",
+      "Displaying the current time and date in the operating system taskbar",
+      "Cooling down overclocked processor chips using thermoelectric chillers",
+      "Measuring network round-trip ping latency across servers"
+    ],
+    "fact": "A Clock Generation Circuit is a circuit that generates the clock signal used to synchronize the operations and timing of a microprocessor or microcontroller system. The clock signal is typically generated by an oscillator circuit that generates a stable and precise clock frequency, which is used to control the timing of instructions, data transfers, and other operations in the system."
+  },
+  {
+    "id": 158,
+    "tag": "reset_circuit",
+    "category": "Digital Logic",
+    "difficulty": "Medium",
+    "question": "What does a reset circuit do when a computer is powered on or reset?",
+    "answer": "Initializes the CPU registers and program counter to a known starting state",
+    "options": [
+      "Initializes the CPU registers and program counter to a known starting state",
+      "Permanently wipes all data stored on non-volatile hard drives",
+      "Overclocks processor clock frequency beyond factory limits",
+      "Transfers operating system logs to remote backup servers"
+    ],
+    "fact": "A Reset Circuit is a circuit that is responsible for initializing and resetting the microprocessor or microcontroller system to a known state when the system is powered on or when a reset signal is received. The reset circuit typically clears the system's registers, sets the program counter to a predefined value, and initializes the system's internal states to ensure a known starting state for proper system operation."
+  },
+  {
+    "id": 159,
+    "tag": "memory_interfacing",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is required during memory interfacing between a CPU and RAM chips?",
+    "answer": "Address decoding, control signal synchronization (Read/Write), and data bus matching",
+    "options": [
+      "Address decoding, control signal synchronization (Read/Write), and data bus matching",
+      "Compiling assembly language code into machine bytecode",
+      "Formatting relational database tables with foreign key constraints",
+      "Establishing an encrypted SSL/TLS tunnel over TCP/IP"
+    ],
+    "fact": "Memory Interfacing is the process of connecting and communicating with different types of memory devices, such as RAM, ROM, and cache, in a microprocessor or microcontroller system. This involves addressing, reading from, and writing to memory devices, as well as managing data transfer and synchronization between the microprocessor and memory devices."
+  },
+  {
+    "id": 160,
+    "tag": "basic_io_interface",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What is the function of a basic I/O interface between CPU and peripherals?",
+    "answer": "Synchronizing data transfer and bridging differences in timing, speed, and data format",
+    "options": [
+      "Synchronizing data transfer and bridging differences in timing, speed, and data format",
+      "Executing complex SQL query joins in non-volatile memory",
+      "Managing user graphical interface styles and animations",
+      "Compressing sound files for high-fidelity audio playback"
+    ],
+    "fact": "Basic I/O Interface refers to the circuitry and protocols used to facilitate input and output (I/O) operations between a microprocessor or microcontroller and external devices, such as sensors, actuators, and displays. Basic I/O interfaces typically include I/O ports, registers, and control logic that enable the microprocessor to send and receive data to and from external devices."
+  },
+  {
+    "id": 161,
+    "tag": "programmable_peripheral_interface",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is a Programmable Peripheral Interface (e.g. Intel 8255)?",
+    "answer": "A versatile parallel I/O chip configurable by software to communicate with various external devices",
+    "options": [
+      "A versatile parallel I/O chip configurable by software to communicate with various external devices",
+      "A dedicated GPU rendering pipeline for ray-traced shadows",
+      "A software framework for building web-based mobile applications",
+      "A database clustering engine for distributed data warehousing"
+    ],
+    "fact": "A Programmable Peripheral Interface (PPI) is a versatile device that can be programmed to perform various input/output (I/O) functions in a microprocessor or microcontroller system. PPIs typically provide multiple programmable I/O ports, timers, and interrupt capabilities, allowing for flexible and customizable I/O operations with external devices."
+  },
+  {
+    "id": 162,
+    "tag": "programmable_interval_timer",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the purpose of a Programmable Interval Timer (e.g. Intel 8253/8254)?",
+    "answer": "Generating accurate software-controlled time delays and periodic hardware interrupts",
+    "options": [
+      "Generating accurate software-controlled time delays and periodic hardware interrupts",
+      "Measuring physical CPU temperature using thermal silicon diodes",
+      "Scheduling thread execution across distributed cloud containers",
+      "Encrypting serial bus data with high-speed block ciphers"
+    ],
+    "fact": "A Programmable Interval Timer (PIT) is a hardware device that can be programmed to generate accurate time intervals or delays in a microprocessor or microcontroller system. PITs are commonly used for tasks such as timing events, generating periodic interrupts, and controlling time-sensitive operations in a system."
+  },
+  {
+    "id": 163,
+    "tag": "hardware_interrupts",
+    "category": "Computer Architecture",
+    "difficulty": "Medium",
+    "question": "What occurs when a hardware interrupt is triggered?",
+    "answer": "The CPU suspends its current execution flow and jumps to an Interrupt Service Routine (ISR)",
+    "options": [
+      "The CPU suspends its current execution flow and jumps to an Interrupt Service Routine (ISR)",
+      "The system immediately powers off to protect hardware components",
+      "The CPU erases all data stored in volatile RAM",
+      "The operating system restarts the entire machine from scratch"
+    ],
+    "fact": "Hardware Interrupts are signals generated by external devices, such as I/O devices or timers, to interrupt the normal execution of a microprocessor or microcontroller program. Hardware interrupts are used to trigger the microprocessor to stop its current operation and respond to the interrupt request, allowing for real-time and asynchronous handling of external events or inputs."
+  },
+  {
+    "id": 164,
+    "tag": "programmable_interrupt_controller",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "What is the role of a Programmable Interrupt Controller (e.g. Intel 8259A / APIC)?",
+    "answer": "Prioritizing and routing multiple hardware interrupt requests from peripherals to the CPU",
+    "options": [
+      "Prioritizing and routing multiple hardware interrupt requests from peripherals to the CPU",
+      "Allocating heap memory chunks to user application processes",
+      "Regulating voltage delivery to multi-phase motherboard VRMs",
+      "Translating domain names to IP addresses in local area networks"
+    ],
+    "fact": "A Programmable Interrupt Controller (PIC) is a hardware device that manages and prioritizes multiple hardware interrupts in a microprocessor or microcontroller system. PICs allow for efficient handling of multiple interrupt requests, prioritization of interrupts, and customization of interrupt handling routines."
+  },
+  {
+    "id": 165,
+    "tag": "dma_operations",
+    "category": "Computer Architecture",
+    "difficulty": "Hard",
+    "question": "In what modes can a DMA controller transfer data?",
+    "answer": "Burst mode, Cycle-stealing mode, and Transparent mode",
+    "options": [
+      "Burst mode, Cycle-stealing mode, and Transparent mode",
+      "Asynchronous mode, Polymorphic mode, and Encapsulated mode",
+      "Recursive mode, Iterative mode, and Greedy mode",
+      "Single-threaded mode, Multi-threaded mode, and Hyperthreaded mode"
+    ],
+    "fact": "DMA (Direct Memory Access) Operations refer to the capability of a microprocessor or microcontroller system to transfer data directly between memory and I/O devices without involving the CPU in the data transfer process. DMA operations are used to offload data transfer tasks from the CPU, allowing for more efficient and faster data transfer rates."
+  },
+  {
+    "id": 166,
+    "tag": "training_vs_testing",
+    "category": "Machine Learning & AI",
+    "difficulty": "Easy",
+    "question": "What is the purpose of splitting data into training and testing sets in machine learning?",
+    "answer": "Training fits model parameters; testing evaluates generalization on unseen data",
+    "options": [
+      "Training fits model parameters; testing evaluates generalization on unseen data",
+      "Training optimizes disk space; testing verifies network connectivity",
+      "Training is done on GPUs; testing can only be performed on CPUs",
+      "Training removes corrupted data; testing creates synthetic duplicates"
+    ],
+    "fact": "Training is the phase in machine learning where a model is trained on a labeled dataset to learn patterns and relationships from the data. Testing, on the other hand, is the phase where the trained model is evaluated on a separate, unseen dataset to measure its performance and generalization ability."
+  },
+  {
+    "id": 167,
+    "tag": "theory_of_generalization",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What is the core concern of the Theory of Generalization in machine learning?",
+    "answer": "How well a model trained on a finite sample performs on previously unseen data",
+    "options": [
+      "How well a model trained on a finite sample performs on previously unseen data",
+      "How fast gradient descent matrix operations run on GPU tensor cores",
+      "How many lines of Python code are needed to implement a neural network",
+      "How relational database indexes scale across distributed clusters"
+    ],
+    "fact": "The Theory of Generalization in machine learning studies how well a model can perform on unseen data after being trained on a limited dataset. It involves understanding the tradeoff between model complexity and performance, as well as the factors that affect a model's ability to generalize well to new data."
+  },
+  {
+    "id": 168,
+    "tag": "vc_dimension",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What does the Vapnik-Chervonenkis (VC) Dimension measure?",
+    "answer": "The capacity and expressive complexity of a statistical classification model",
+    "options": [
+      "The capacity and expressive complexity of a statistical classification model",
+      "The physical dimensions and aspect ratio of computer display monitors",
+      "The number of hidden layers in a convolutional neural network",
+      "The byte size of compiled machine learning weight checkpoint files"
+    ],
+    "fact": "VC (Vapnik-Chervonenkis) Dimension is a measure of the capacity or complexity of a machine learning model. It represents the maximum number of points that a model can shatter or perfectly fit in a binary classification problem. VC Dimension is used to analyze the generalization ability and complexity of a model."
+  },
+  {
+    "id": 169,
+    "tag": "generalization_bounds",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What do generalization bounds provide in statistical learning theory?",
+    "answer": "Mathematical guarantees on the gap between training error and true test error",
+    "options": [
+      "Mathematical guarantees on the gap between training error and true test error",
+      "Hardware temperature limits before GPU thermal throttling begins",
+      "The maximum number of rows allowable in a relational database table",
+      "The maximum download speed achievable over a gigabit Ethernet link"
+    ],
+    "fact": "Generalization Bounds are mathematical bounds that provide an upper limit on the expected difference between a model's training error and its true error on unseen data. These bounds help to estimate the expected performance of a model on unseen data and provide insights into the model's generalization ability."
+  },
+  {
+    "id": 170,
+    "tag": "bias_variance_tradeoff",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What does high bias and high variance lead to respectively in machine learning models?",
+    "answer": "High bias causes underfitting; high variance causes overfitting",
+    "options": [
+      "High bias causes underfitting; high variance causes overfitting",
+      "High bias causes overfitting; high variance causes underfitting",
+      "High bias causes GPU crashes; high variance causes memory leaks",
+      "High bias increases training speed; high variance minimizes model size"
+    ],
+    "fact": "Bias-Variance Tradeoff is a concept in machine learning that represents the balance between a model's bias and variance. Bias refers to the error introduced by approximating real-world data with a simplified model, while variance represents the sensitivity of the model to variations in the training data. Finding the right balance between bias and variance is crucial for building a well-performing model."
+  },
+  {
+    "id": 171,
+    "tag": "stochastic_gradient_descent",
+    "category": "Machine Learning & AI",
+    "difficulty": "Medium",
+    "question": "How does Stochastic Gradient Descent (SGD) differ from standard Batch Gradient Descent?",
+    "answer": "SGD updates model parameters using one (or a mini-batch of) sample at each iteration instead of the entire dataset",
+    "options": [
+      "SGD updates model parameters using one (or a mini-batch of) sample at each iteration instead of the entire dataset",
+      "SGD computes exact analytical matrix inversions without any iterations",
+      "SGD only operates on categorical decision tree models",
+      "SGD runs strictly in reverse to maximize classification error"
+    ],
+    "fact": "Stochastic Gradient Descent (SGD) is an optimization algorithm commonly used in machine learning for training models. It is a variant of the gradient descent algorithm that updates the model parameters based on a single data point or a small subset of data points at a time, making it computationally efficient for large datasets. SGD is widely used in training deep neural networks and other large-scale machine learning models."
+  },
+  {
+    "id": 172,
+    "tag": "backpropagation_algorithm",
+    "category": "Machine Learning & AI",
+    "difficulty": "Hard",
+    "question": "What is the mathematical foundation of the Backpropagation algorithm in neural networks?",
+    "answer": "The calculus chain rule, computing gradients of the loss function backward through layers",
+    "options": [
+      "The calculus chain rule, computing gradients of the loss function backward through layers",
+      "Monte Carlo tree search sampling paths through game states",
+      "Topological sorting on directed acyclic dependency graphs",
+      "Fourier transform decomposing audio signals into sine frequencies"
+    ],
+    "fact": "The Backpropagation Algorithm is a widely used optimization algorithm for training artificial neural networks. It is a supervised learning algorithm that uses a gradient-based approach to update the model weights based on the error between the predicted output and the actual output. Backpropagation calculates the gradient of the error with respect to the model weights and uses it to adjust the weights iteratively during the training process."
+  }
+]
